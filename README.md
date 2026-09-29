@@ -7,6 +7,8 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+**🚀 Live Demo:** [https://datapulseai-o5ib.vercel.app/](https://datapulseai-o5ib.vercel.app/)
+
 ---
 
 ## 🎯 Problem Statement
@@ -309,4 +311,4 @@ confidence   = mean(all_field_confidence_scores)
 
 ---
 
-*DataPulse AI — Research at the speed of thought. Built for Hackathon 2025.*
+*DataPulse AI — Research at the speed of thought. Built by Chirag Gaurav for Code Cubicle 6.0.*
