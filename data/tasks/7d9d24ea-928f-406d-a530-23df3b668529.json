@@ -1,0 +1,64 @@
+{
+  "id": "7d9d24ea-928f-406d-a530-23df3b668529",
+  "prompt": "Find software companies in India that are currently hiring frontend engineers",
+  "title": "Find software companies in India that are currently hiring frontend engineers",
+  "status": "failed",
+  "progress": 3,
+  "plan": [
+    {
+      "id": "plan",
+      "name": "Research Planning",
+      "description": "AI generates a dynamic research plan tailored to your request",
+      "status": "failed",
+      "startedAt": "2026-09-28T14:10:14.257Z",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+    },
+    {
+      "id": "search",
+      "name": "Web Search",
+      "description": "Execute search queries to find relevant sources",
+      "status": "pending"
+    },
+    {
+      "id": "retrieve",
+      "name": "Content Retrieval",
+      "description": "Fetch and sanitize content from candidate sources",
+      "status": "pending"
+    },
+    {
+      "id": "extract",
+      "name": "Evidence-Grounded Extraction",
+      "description": "AI extracts structured data strictly from retrieved source content",
+      "status": "pending"
+    },
+    {
+      "id": "evaluate",
+      "name": "Coverage Evaluation",
+      "description": "Evaluate coverage and decide on additional passes",
+      "status": "pending"
+    },
+    {
+      "id": "validate",
+      "name": "Validate & Deduplicate",
+      "description": "Field validation, deduplication, and review flagging",
+      "status": "pending"
+    },
+    {
+      "id": "score",
+      "name": "Quality Scoring",
+      "description": "Calculate data quality metrics across all dimensions",
+      "status": "pending"
+    },
+    {
+      "id": "finalize",
+      "name": "Finalize Dataset",
+      "description": "Compile final dataset with full provenance chain",
+      "status": "pending"
+    }
+  ],
+  "searchProvider": "Serper",
+  "runNumber": 1,
+  "createdAt": "2026-09-28T14:10:14.164Z",
+  "updatedAt": "2026-09-28T14:10:46.284Z",
+  "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+}

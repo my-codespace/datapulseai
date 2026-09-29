@@ -1,0 +1,198 @@
+{
+  "id": "37b419f8-364b-4957-ad4f-ed2ae8aa5ab0",
+  "prompt": "Find software companies in India that are currently hiring frontend \nengineers. Give me the company name, job title, location, application link, and source.",
+  "title": "Active Frontend Engineering Roles in India",
+  "status": "completed",
+  "progress": 100,
+  "plan": [
+    {
+      "id": "plan",
+      "name": "Research Planning",
+      "description": "AI generates a dynamic research plan tailored to your request",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:55:13.718Z",
+      "completedAt": "2026-09-28T13:55:59.181Z",
+      "detail": "5 fields · 5 queries · target 20 records"
+    },
+    {
+      "id": "search",
+      "name": "Web Search",
+      "description": "Execute search queries to find relevant sources",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:56:17.316Z",
+      "completedAt": "2026-09-28T13:56:24.895Z",
+      "detail": "8 queries → 20 candidate sources"
+    },
+    {
+      "id": "retrieve",
+      "name": "Content Retrieval",
+      "description": "Fetch and sanitize content from candidate sources",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:56:25.002Z",
+      "completedAt": "2026-09-28T13:56:39.895Z",
+      "detail": "13 pages retrieved · 0 blocked"
+    },
+    {
+      "id": "extract",
+      "name": "Evidence-Grounded Extraction",
+      "description": "AI extracts structured data strictly from retrieved source content",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:56:39.930Z",
+      "completedAt": "2026-09-28T13:57:12.151Z",
+      "recordsProcessed": 0,
+      "detail": "0 new records · 0 total across all passes"
+    },
+    {
+      "id": "evaluate",
+      "name": "Coverage Evaluation",
+      "description": "Evaluate coverage and decide on additional passes",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:57:12.161Z",
+      "completedAt": "2026-09-28T13:57:12.179Z",
+      "detail": "Maximum passes (2) reached"
+    },
+    {
+      "id": "validate",
+      "name": "Validate & Deduplicate",
+      "description": "Field validation, deduplication, and review flagging",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:57:12.189Z",
+      "completedAt": "2026-09-28T13:57:12.210Z",
+      "recordsProcessed": 0,
+      "detail": "0 dupes removed · 0 valid · 0 need review"
+    },
+    {
+      "id": "score",
+      "name": "Quality Scoring",
+      "description": "Calculate data quality metrics across all dimensions",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:57:12.218Z",
+      "completedAt": "2026-09-28T13:57:12.238Z",
+      "detail": "0% complete · 0% evidence-backed · 0% confidence"
+    },
+    {
+      "id": "finalize",
+      "name": "Finalize Dataset",
+      "description": "Compile final dataset with full provenance chain",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:57:12.247Z",
+      "completedAt": "2026-09-28T13:57:12.262Z",
+      "detail": "0 records · 0 evidence items · 2 passes"
+    }
+  ],
+  "searchProvider": "Serper",
+  "runNumber": 1,
+  "createdAt": "2026-09-28T13:55:13.686Z",
+  "updatedAt": "2026-09-28T13:57:12.270Z",
+  "researchPlan": {
+    "objective": "Identify and extract active frontend engineering job openings at software companies located in India.",
+    "researchType": "job_listings",
+    "title": "Active Frontend Engineering Roles in India",
+    "entities": [
+      "Frontend Engineer",
+      "Software Companies",
+      "India"
+    ],
+    "outputFields": [
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": true,
+        "description": "The name of the hiring software company",
+        "validationHint": "Must be a recognized entity",
+        "extractionHint": "Look for company branding or header information"
+      },
+      {
+        "name": "job_title",
+        "type": "string",
+        "required": true,
+        "description": "The specific title of the frontend role",
+        "validationHint": "Must contain 'Frontend', 'UI', or 'React/Angular/Vue'",
+        "extractionHint": "Look for H1 tags or job title headers"
+      },
+      {
+        "name": "location",
+        "type": "string",
+        "required": true,
+        "description": "The city or remote status of the position",
+        "validationHint": "Must be within India or specified as Remote",
+        "extractionHint": "Look for location metadata or city tags"
+      },
+      {
+        "name": "application_link",
+        "type": "url",
+        "required": true,
+        "description": "Direct URL to the job application page",
+        "validationHint": "Must be a valid, reachable URL",
+        "extractionHint": "Look for 'Apply' or 'Submit' button href attributes"
+      },
+      {
+        "name": "source",
+        "type": "string",
+        "required": true,
+        "description": "The platform where the job was found",
+        "validationHint": "Must be a known job board or company career site",
+        "extractionHint": "Identify the domain name of the source"
+      }
+    ],
+    "searchQueries": [
+      "site:linkedin.com/jobs 'frontend engineer' India",
+      "site:naukri.com 'frontend developer' hiring",
+      "site:wellfound.com 'frontend engineer' India",
+      "site:indeed.co.in 'frontend developer' software company",
+      "site:glassdoor.co.in 'frontend engineer' jobs India"
+    ],
+    "sourceStrategy": "Prioritize major job boards and direct company career pages to ensure high-quality, active listings.",
+    "validationRules": [
+      {
+        "field": "application_link",
+        "rule": "Must be a valid URL and return a 200 OK status",
+        "severity": "error"
+      },
+      {
+        "field": "location",
+        "rule": "Must be located in India or explicitly state Remote",
+        "severity": "warning"
+      }
+    ],
+    "deduplicationKeys": [
+      "company_name",
+      "job_title"
+    ],
+    "targetRecordCount": 20,
+    "maxPasses": 2,
+    "stoppingConditions": [
+      "Target record count reached",
+      "No new unique records found"
+    ],
+    "complianceNotes": "Only using publicly accessible sources"
+  },
+  "completedAt": "2026-09-28T13:57:12.270Z",
+  "summary": {
+    "totalRaw": 0,
+    "totalProcessed": 0,
+    "duplicatesRemoved": 0,
+    "validationErrors": 0,
+    "validationWarnings": 0,
+    "avgConfidence": 0,
+    "sourcesSucceeded": 13,
+    "sourcesFailed": 9,
+    "sourcesBlocked": 8,
+    "topSources": [],
+    "searchQueriesRun": 8,
+    "pagesRetrieved": 13,
+    "evidenceItems": 0,
+    "passesCompleted": 2,
+    "isDemo": false
+  },
+  "quality": {
+    "completeness": 0,
+    "validity": 0,
+    "uniqueness": 100,
+    "evidenceCoverage": 0,
+    "avgConfidence": 0,
+    "freshness": "2026-09-28T13:57:12.237Z",
+    "fieldQuality": {},
+    "recordsNeedingReview": 0
+  }
+}

@@ -1,0 +1,263 @@
+[
+  {
+    "id": "f07edcec-b8e3-47a6-a3fd-a89a07e5b7ca",
+    "sourceId": "e2956845-d6f3-4483-b30d-74ab4bdfd06e",
+    "sourceName": "171 Healthcare Startups Funded by Sequoia, YC, A16Z (2026)",
+    "sourceUrl": "https://topstartups.io/?industries=Healthcare",
+    "fieldValues": {
+      "company_name": {
+        "value": "Slingshot AI",
+        "confidence": 100,
+        "evidenceIds": [
+          "63d4ab0c-b2b5-42ef-9498-1eac404a4253"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "website_url": {
+        "value": null,
+        "confidence": 0,
+        "evidenceIds": [
+          "63d4ab0c-b2b5-42ef-9498-1eac404a4253"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "warning",
+        "validationMessage": "Required field missing"
+      },
+      "founder_names": {
+        "value": null,
+        "confidence": 0,
+        "evidenceIds": [
+          "63d4ab0c-b2b5-42ef-9498-1eac404a4253"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "warning",
+        "validationMessage": "Required field missing"
+      },
+      "funding_stage": {
+        "value": "Seed",
+        "confidence": 100,
+        "evidenceIds": [
+          "63d4ab0c-b2b5-42ef-9498-1eac404a4253"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Slingshot AI",
+      "website_url": null,
+      "founder_names": null,
+      "funding_stage": "Seed"
+    },
+    "evidence": [
+      {
+        "id": "63d4ab0c-b2b5-42ef-9498-1eac404a4253",
+        "sourceId": "e2956845-d6f3-4483-b30d-74ab4bdfd06e",
+        "sourceName": "171 Healthcare Startups Funded by Sequoia, YC, A16Z (2026)",
+        "sourceUrl": "https://topstartups.io/?industries=Healthcare",
+        "retrievedAt": "2026-09-28T13:44:39.938Z",
+        "snippet": "Slingshot AI, Use AI to make mental healthcare more accessible, Artificial Intelligence Healthcare, Quick facts: 📍HQ: New York, New York, USA, 11-50 employees, Founded: 2022, Funding: Andreessen Horowitz $30M Seed in 2024",
+        "relevance": 90,
+        "searchQuery": "top seed-stage AI healthcare startups US 2024"
+      }
+    ],
+    "confidence": 50,
+    "validationIssues": [
+      {
+        "field": "website_url",
+        "message": "Required field \"website_url\" not found in source",
+        "severity": "warning"
+      },
+      {
+        "field": "founder_names",
+        "message": "Required field \"founder_names\" not found in source",
+        "severity": "warning"
+      }
+    ],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T13:45:59.528Z",
+    "needsReview": true,
+    "reviewFlags": [
+      "missing_required",
+      "low_confidence"
+    ],
+    "reviewStatus": "pending",
+    "taskId": "613f8b93-9863-47b5-bdfe-1becb8622d79"
+  },
+  {
+    "id": "49e35a46-e361-48d3-81a0-cae9c0d21c50",
+    "sourceId": "07499217-2ade-4b56-a2c1-6c930756a540",
+    "sourceName": "Crunchbase Sector Snapshot: Funding To AI-Related Healthcare Startups Is Robust This Year",
+    "sourceUrl": "https://news.crunchbase.com/health-wellness-biotech/ai-healthcare-funding-rises-2025/",
+    "fieldValues": {
+      "company_name": {
+        "value": "Honey Health",
+        "confidence": 100,
+        "evidenceIds": [
+          "28b0e407-02da-4f6c-93ac-93b0d1cfc61e"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "website_url": {
+        "value": null,
+        "confidence": 0,
+        "evidenceIds": [
+          "28b0e407-02da-4f6c-93ac-93b0d1cfc61e"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "warning",
+        "validationMessage": "Required field missing"
+      },
+      "founder_names": {
+        "value": null,
+        "confidence": 0,
+        "evidenceIds": [
+          "28b0e407-02da-4f6c-93ac-93b0d1cfc61e"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "warning",
+        "validationMessage": "Required field missing"
+      },
+      "funding_stage": {
+        "value": "Seed",
+        "confidence": 100,
+        "evidenceIds": [
+          "28b0e407-02da-4f6c-93ac-93b0d1cfc61e"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Honey Health",
+      "website_url": null,
+      "founder_names": null,
+      "funding_stage": "Seed"
+    },
+    "evidence": [
+      {
+        "id": "28b0e407-02da-4f6c-93ac-93b0d1cfc61e",
+        "sourceId": "07499217-2ade-4b56-a2c1-6c930756a540",
+        "sourceName": "Crunchbase Sector Snapshot: Funding To AI-Related Healthcare Startups Is Robust This Year",
+        "sourceUrl": "https://news.crunchbase.com/health-wellness-biotech/ai-healthcare-funding-rises-2025/",
+        "retrievedAt": "2026-09-28T13:44:38.034Z",
+        "snippet": "Honey Health also recently emerged from stealth with $7.8 million in seed funding led by Pelion Health Partners.",
+        "relevance": 90,
+        "searchQuery": "site:crunchbase.com 'seed' 'AI' 'healthcare' 'United States'"
+      }
+    ],
+    "confidence": 50,
+    "validationIssues": [
+      {
+        "field": "website_url",
+        "message": "Required field \"website_url\" not found in source",
+        "severity": "warning"
+      },
+      {
+        "field": "founder_names",
+        "message": "Required field \"founder_names\" not found in source",
+        "severity": "warning"
+      }
+    ],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T13:45:59.528Z",
+    "needsReview": true,
+    "reviewFlags": [
+      "missing_required",
+      "low_confidence"
+    ],
+    "reviewStatus": "pending",
+    "taskId": "613f8b93-9863-47b5-bdfe-1becb8622d79"
+  },
+  {
+    "id": "9000cdfb-aace-44b4-8a16-4ab8a4b627ca",
+    "sourceId": "9dacfd86-0901-44be-a0b5-3d516faaa194",
+    "sourceName": "The Week’s 10 Biggest Funding Rounds: A Big Week For AI And Drone Delivery",
+    "sourceUrl": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-drones-healthcare/",
+    "fieldValues": {
+      "company_name": {
+        "value": "Humans&",
+        "confidence": 100,
+        "evidenceIds": [
+          "30bc3261-09fd-4806-bc76-5105e5b8b20e"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "website_url": {
+        "value": null,
+        "confidence": 0,
+        "evidenceIds": [
+          "30bc3261-09fd-4806-bc76-5105e5b8b20e"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "warning",
+        "validationMessage": "Required field missing"
+      },
+      "founder_names": {
+        "value": null,
+        "confidence": 0,
+        "evidenceIds": [
+          "30bc3261-09fd-4806-bc76-5105e5b8b20e"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "warning",
+        "validationMessage": "Required field missing"
+      },
+      "funding_stage": {
+        "value": "Seed",
+        "confidence": 100,
+        "evidenceIds": [
+          "30bc3261-09fd-4806-bc76-5105e5b8b20e"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Humans&",
+      "website_url": null,
+      "founder_names": null,
+      "funding_stage": "Seed"
+    },
+    "evidence": [
+      {
+        "id": "30bc3261-09fd-4806-bc76-5105e5b8b20e",
+        "sourceId": "9dacfd86-0901-44be-a0b5-3d516faaa194",
+        "sourceName": "The Week’s 10 Biggest Funding Rounds: A Big Week For AI And Drone Delivery",
+        "sourceUrl": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-drones-healthcare/",
+        "retrievedAt": "2026-09-28T13:44:39.368Z",
+        "snippet": "The second-largest round, a $480 million seed deal for upstart AI lab Humans&, meanwhile, showed there’s also still appetite for ultra-ambitious newcomers.",
+        "relevance": 90,
+        "searchQuery": "site:crunchbase.com 'seed' 'AI' 'healthcare' 'United States'"
+      }
+    ],
+    "confidence": 50,
+    "validationIssues": [
+      {
+        "field": "website_url",
+        "message": "Required field \"website_url\" not found in source",
+        "severity": "warning"
+      },
+      {
+        "field": "founder_names",
+        "message": "Required field \"founder_names\" not found in source",
+        "severity": "warning"
+      }
+    ],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T13:45:59.528Z",
+    "needsReview": true,
+    "reviewFlags": [
+      "missing_required",
+      "low_confidence"
+    ],
+    "reviewStatus": "pending",
+    "taskId": "613f8b93-9863-47b5-bdfe-1becb8622d79"
+  }
+]

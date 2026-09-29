@@ -1,0 +1,90 @@
+[
+  {
+    "id": "2de6625a-f84e-4a64-89a3-f1dc4750de6b",
+    "sourceId": "64dc7edc-483c-4d15-b8be-fea3ede95761",
+    "sourceName": "Job Application for 09.Frontend Engineer at PayPay India",
+    "sourceUrl": "http://job-boards.greenhouse.io/pay2dc/jobs/4671610006",
+    "retrievedAt": "2026-09-28T14:03:39.790Z",
+    "snippet": "PayPay India is looking for a Frontend Engineer to work on our payment system to deliver the best payment experience for our customers.",
+    "relevance": 100,
+    "searchQuery": "site:greenhouse.io \"frontend engineer\" India",
+    "taskId": "cb04a7e4-097f-496d-a291-e8baac489cc7"
+  },
+  {
+    "id": "93063011-0baa-4bb5-9c34-85a8f524a542",
+    "sourceId": "0e3faf8a-fa39-4c26-b7a6-ea117f37eca3",
+    "sourceName": "Job Application for Senior Frontend Engineer at GitLab",
+    "sourceUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8826920002",
+    "retrievedAt": "2026-09-28T14:03:47.800Z",
+    "snippet": "As a Senior Frontend Engineer, you'll solve high-scope frontend problems and influence your team's technical and product direction.",
+    "relevance": 100,
+    "searchQuery": "site:greenhouse.io \"frontend engineer\" India",
+    "taskId": "cb04a7e4-097f-496d-a291-e8baac489cc7"
+  },
+  {
+    "id": "b9943da3-0d14-4d91-83bf-3d4afcbc1841",
+    "sourceId": "f8fae5ab-2943-45c1-88e1-deea6880488c",
+    "sourceName": "Job Application for Staff Frontend Engineer at GitLab",
+    "sourceUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8826965002",
+    "retrievedAt": "2026-09-28T14:03:47.807Z",
+    "snippet": "As a Staff Frontend Engineer on the Core DevOps team, you'll provide technical leadership across your team and adjacent teams.",
+    "relevance": 100,
+    "searchQuery": "site:greenhouse.io \"frontend engineer\" India",
+    "taskId": "cb04a7e4-097f-496d-a291-e8baac489cc7"
+  },
+  {
+    "id": "dbd0a970-7176-48d3-871a-9b2eb3f94203",
+    "sourceId": "6d127d4c-4c7d-44a2-a9b4-bccf7bf7c66f",
+    "sourceName": "Job Application for Frontend Engineer  at KRAFTON INDIA",
+    "sourceUrl": "https://job-boards.greenhouse.io/kraftonindia/jobs/8514438002",
+    "retrievedAt": "2026-09-28T14:03:47.815Z",
+    "snippet": "We are looking for a Frontend Engineer with a strong fintech background to join our payments team and own the user-facing layer of our UPI payment experience.",
+    "relevance": 100,
+    "searchQuery": "site:greenhouse.io \"frontend engineer\" India",
+    "taskId": "cb04a7e4-097f-496d-a291-e8baac489cc7"
+  },
+  {
+    "id": "c6ba57a9-80da-491b-a369-128256ac6b02",
+    "sourceId": "9db13527-513c-49d1-87bc-33d0c27fe2a7",
+    "sourceName": "Drivetrain - Frontend Engineer",
+    "sourceUrl": "https://jobs.lever.co/drivetrain/cd39cc4e-056e-444c-8c17-9f97e34ddbce",
+    "retrievedAt": "2026-09-28T14:03:48.460Z",
+    "snippet": "Frontend Engineer. India. Engineering /. Full Time /. Remote.",
+    "relevance": 100,
+    "searchQuery": "site:lever.co \"frontend engineer\" India",
+    "taskId": "cb04a7e4-097f-496d-a291-e8baac489cc7"
+  },
+  {
+    "id": "d22ec67f-031f-44b5-8244-3c466eda7c10",
+    "sourceId": "5f70cb5c-0990-41e3-be61-f2ef58c7fd48",
+    "sourceName": "CSC Generation - Senior Frontend Engineer",
+    "sourceUrl": "https://jobs.lever.co/cscgeneration-2/aaf1e51d-c4cb-4565-8455-f0513ebbb2b9/apply",
+    "retrievedAt": "2026-09-28T14:03:50.813Z",
+    "snippet": "Senior Frontend Engineer. Anywhere. CSC GENERATION (Shared Services- India) – Engineering /. Full Time /. Remote.",
+    "relevance": 100,
+    "searchQuery": "site:lever.co \"frontend engineer\" India",
+    "taskId": "cb04a7e4-097f-496d-a291-e8baac489cc7"
+  },
+  {
+    "id": "e4604b1f-fda1-44c1-8250-3610baf2d741",
+    "sourceId": "0e233e83-a9e0-4c89-9967-386008ab611f",
+    "sourceName": "Netomi - SDE II - Frontend",
+    "sourceUrl": "https://jobs.lever.co/netomi/4fbdaf57-644a-47a6-9248-88fc0bf4a2dd",
+    "retrievedAt": "2026-09-28T14:03:50.815Z",
+    "snippet": "We are looking for a skilled Frontend Engineer with strong expertise in modern JavaScript frameworks, hands-on experience in building scalable and responsive web applications.",
+    "relevance": 100,
+    "searchQuery": "site:lever.co \"frontend engineer\" India",
+    "taskId": "cb04a7e4-097f-496d-a291-e8baac489cc7"
+  },
+  {
+    "id": "f8f27cc8-3e92-4ee3-8296-4108775107ac",
+    "sourceId": "ba57b529-25fa-49ae-a3ca-118ae0caf429",
+    "sourceName": "HighLevel - Software Development Engineer II (Frontend) - Contacts",
+    "sourceUrl": "https://jobs.lever.co/gohighlevel/d3a234e6-d284-4a72-aa2f-fb54a72f951b",
+    "retrievedAt": "2026-09-28T14:03:50.819Z",
+    "snippet": "We are looking for an SDE-2 Frontend Engineer who can build scalable, performant, and intuitive customer-facing applications.",
+    "relevance": 100,
+    "searchQuery": "site:lever.co \"frontend engineer\" India",
+    "taskId": "cb04a7e4-097f-496d-a291-e8baac489cc7"
+  }
+]

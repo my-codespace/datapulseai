@@ -1,0 +1,211 @@
+{
+  "id": "98cfda8b-b589-476a-a250-66b1fbd8c866",
+  "prompt": "Find 5 software engineering job openings at Indian tech startups hiring React developers",
+  "title": "Indian Tech Startup React Developer Jobs",
+  "status": "completed",
+  "progress": 100,
+  "plan": [
+    {
+      "id": "plan",
+      "name": "Research Planning",
+      "description": "AI generates a dynamic research plan tailored to your request",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:14:22.230Z",
+      "completedAt": "2026-09-28T13:15:10.293Z",
+      "detail": "6 fields · 4 queries · target 15 records"
+    },
+    {
+      "id": "search",
+      "name": "Web Search",
+      "description": "Execute search queries to find relevant sources",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:15:21.176Z",
+      "completedAt": "2026-09-28T13:15:24.075Z",
+      "detail": "7 queries → 0 candidate sources"
+    },
+    {
+      "id": "retrieve",
+      "name": "Content Retrieval",
+      "description": "Fetch and sanitize content from candidate sources",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:15:24.098Z",
+      "completedAt": "2026-09-28T13:15:24.128Z",
+      "detail": "0 pages retrieved · 0 blocked"
+    },
+    {
+      "id": "extract",
+      "name": "Evidence-Grounded Extraction",
+      "description": "AI extracts structured data strictly from retrieved source content",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:15:24.136Z",
+      "completedAt": "2026-09-28T13:15:24.152Z",
+      "recordsProcessed": 0,
+      "detail": "0 new records · 0 total across all passes"
+    },
+    {
+      "id": "evaluate",
+      "name": "Coverage Evaluation",
+      "description": "Evaluate coverage and decide on additional passes",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:15:24.159Z",
+      "completedAt": "2026-09-28T13:15:24.174Z",
+      "detail": "Maximum passes (2) reached"
+    },
+    {
+      "id": "validate",
+      "name": "Validate & Deduplicate",
+      "description": "Field validation, deduplication, and review flagging",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:15:24.185Z",
+      "completedAt": "2026-09-28T13:15:24.202Z",
+      "recordsProcessed": 0,
+      "detail": "0 dupes removed · 0 valid · 0 need review"
+    },
+    {
+      "id": "score",
+      "name": "Quality Scoring",
+      "description": "Calculate data quality metrics across all dimensions",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:15:24.215Z",
+      "completedAt": "2026-09-28T13:15:24.234Z",
+      "detail": "0% complete · 0% evidence-backed · 0% confidence"
+    },
+    {
+      "id": "finalize",
+      "name": "Finalize Dataset",
+      "description": "Compile final dataset with full provenance chain",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:15:24.241Z",
+      "completedAt": "2026-09-28T13:15:24.257Z",
+      "detail": "0 records · 0 evidence items · 2 passes"
+    }
+  ],
+  "searchProvider": "Demo (no search API configured)",
+  "runNumber": 1,
+  "createdAt": "2026-09-28T13:14:22.171Z",
+  "updatedAt": "2026-09-28T13:15:24.265Z",
+  "researchPlan": {
+    "objective": "Identify active software engineering job openings for React developers at Indian tech startups with direct application links.",
+    "researchType": "job_listings",
+    "title": "Indian Tech Startup React Developer Jobs",
+    "entities": [
+      "React.js",
+      "Software Engineer",
+      "India",
+      "Tech Startups"
+    ],
+    "outputFields": [
+      {
+        "name": "job_title",
+        "type": "string",
+        "required": true,
+        "description": "Official title of the job posting",
+        "validationHint": "Must contain keywords like React, Frontend, Full Stack, or Software Engineer",
+        "extractionHint": "Look for H1 or prominent titles on job listing pages"
+      },
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": true,
+        "description": "Name of the Indian startup hiring",
+        "validationHint": "Must be a valid company name, not a recruiter agency name",
+        "extractionHint": "Look for company branding, employer header, or 'about company' section"
+      },
+      {
+        "name": "location",
+        "type": "string",
+        "required": true,
+        "description": "Job location or remote status in India",
+        "validationHint": "Must specify India, Remote (India), or major Indian tech hub (e.g., Bengaluru, Gurgaon, Mumbai, Hyderabad)",
+        "extractionHint": "Look for location badge near job title or workplace type"
+      },
+      {
+        "name": "job_url",
+        "type": "url",
+        "required": true,
+        "description": "Direct application link or ATS job posting URL",
+        "validationHint": "Must be a live URL starting with http/https pointing to direct application page",
+        "extractionHint": "Capture the canonical URL or application button target link"
+      },
+      {
+        "name": "tech_stack_requirements",
+        "type": "string",
+        "required": false,
+        "description": "Key technologies required along with React",
+        "validationHint": "Should mention React and associated frontend or fullstack tech",
+        "extractionHint": "Extract from requirements, qualifications, or tech stack section"
+      },
+      {
+        "name": "posted_date",
+        "type": "string",
+        "required": false,
+        "description": "Date or relative timeframe when the job was posted",
+        "validationHint": "E.g., YYYY-MM-DD or '3 days ago'",
+        "extractionHint": "Look for posting timestamp or metadata tags"
+      }
+    ],
+    "searchQueries": [
+      "site:lever.co OR site:greenhouse.io OR site:ashbyhq.com \"React\" developer startup India",
+      "site:wellfound.com/jobs \"React\" frontend developer India startup",
+      "\"React Developer\" OR \"Frontend Engineer\" startup hiring Bengaluru OR Gurgaon OR Remote India jobs",
+      "\"Software Engineer\" \"React\" hiring startup India careers apply"
+    ],
+    "sourceStrategy": "Prioritize direct Applicant Tracking Systems (Lever, Greenhouse, Ashby) and startup-focused platforms (Wellfound, Cutshort) to ensure listings are active and direct.",
+    "validationRules": [
+      {
+        "field": "job_url",
+        "rule": "Must be a valid, direct listing URL and not a generic job board search result page",
+        "severity": "error"
+      },
+      {
+        "field": "company_name",
+        "rule": "Must be an active tech startup operating in or headquartered in India",
+        "severity": "error"
+      },
+      {
+        "field": "job_title",
+        "rule": "Must explicitly require React.js experience in description or title",
+        "severity": "error"
+      }
+    ],
+    "deduplicationKeys": [
+      "company_name",
+      "job_title"
+    ],
+    "targetRecordCount": 15,
+    "maxPasses": 2,
+    "stoppingConditions": [
+      "Target record count reached",
+      "Minimum 5 fully validated React developer job listings from unique Indian startups collected"
+    ],
+    "complianceNotes": "Only aggregate publicly available career listings directly from company sites or public job portals."
+  },
+  "completedAt": "2026-09-28T13:15:24.264Z",
+  "summary": {
+    "totalRaw": 0,
+    "totalProcessed": 0,
+    "duplicatesRemoved": 0,
+    "validationErrors": 0,
+    "validationWarnings": 0,
+    "avgConfidence": 0,
+    "sourcesSucceeded": 0,
+    "sourcesFailed": 3,
+    "sourcesBlocked": 0,
+    "topSources": [],
+    "searchQueriesRun": 7,
+    "pagesRetrieved": 0,
+    "evidenceItems": 0,
+    "passesCompleted": 2,
+    "isDemo": true
+  },
+  "quality": {
+    "completeness": 0,
+    "validity": 0,
+    "uniqueness": 100,
+    "evidenceCoverage": 0,
+    "avgConfidence": 0,
+    "freshness": "2026-09-28T13:15:24.232Z",
+    "fieldQuality": {},
+    "recordsNeedingReview": 0
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "id": "cb04a7e4-097f-496d-a291-e8baac489cc7",
+  "prompt": "Find software companies in India that are currently hiring frontend \nengineers. Give me the company name, job title, location, application link, and source.",
+  "title": "Active Frontend Engineering Roles in India",
+  "status": "failed",
+  "progress": 50,
+  "plan": [
+    {
+      "id": "plan",
+      "name": "Research Planning",
+      "description": "AI generates a dynamic research plan tailored to your request",
+      "status": "completed",
+      "startedAt": "2026-09-28T14:03:11.517Z",
+      "completedAt": "2026-09-28T14:03:25.040Z",
+      "detail": "5 fields · 6 queries · target 20 records"
+    },
+    {
+      "id": "search",
+      "name": "Web Search",
+      "description": "Execute search queries to find relevant sources",
+      "status": "completed",
+      "startedAt": "2026-09-28T14:04:10.272Z",
+      "completedAt": "2026-09-28T14:04:16.778Z",
+      "detail": "9 queries → 19 candidate sources"
+    },
+    {
+      "id": "retrieve",
+      "name": "Content Retrieval",
+      "description": "Fetch and sanitize content from candidate sources",
+      "status": "completed",
+      "startedAt": "2026-09-28T14:03:39.763Z",
+      "completedAt": "2026-09-28T14:03:54.129Z",
+      "detail": "15 pages retrieved · 0 blocked"
+    },
+    {
+      "id": "extract",
+      "name": "Evidence-Grounded Extraction",
+      "description": "AI extracts structured data strictly from retrieved source content",
+      "status": "completed",
+      "startedAt": "2026-09-28T14:03:54.139Z",
+      "completedAt": "2026-09-28T14:04:04.022Z",
+      "recordsProcessed": 8,
+      "detail": "8 new records · 8 total across all passes"
+    },
+    {
+      "id": "evaluate",
+      "name": "Coverage Evaluation",
+      "description": "Evaluate coverage and decide on additional passes",
+      "status": "completed",
+      "startedAt": "2026-09-28T14:04:04.030Z",
+      "completedAt": "2026-09-28T14:04:09.224Z",
+      "detail": "The current research has only achieved 40% of the target record count. Relying heavily on specific ATS domains has likely excluded many companies that host their own career portals or use different platforms. Expanding to broader search operators and excluding already-covered domains will help capture the remaining 60% of the required data."
+    },
+    {
+      "id": "validate",
+      "name": "Validate & Deduplicate",
+      "description": "Field validation, deduplication, and review flagging",
+      "status": "pending"
+    },
+    {
+      "id": "score",
+      "name": "Quality Scoring",
+      "description": "Calculate data quality metrics across all dimensions",
+      "status": "pending"
+    },
+    {
+      "id": "finalize",
+      "name": "Finalize Dataset",
+      "description": "Compile final dataset with full provenance chain",
+      "status": "pending"
+    }
+  ],
+  "searchProvider": "Serper",
+  "runNumber": 2,
+  "createdAt": "2026-09-28T14:03:11.495Z",
+  "updatedAt": "2026-09-28T14:04:16.953Z",
+  "researchPlan": {
+    "objective": "Identify and extract current frontend engineering job openings at Indian software companies from public career portals and applicant tracking systems.",
+    "researchType": "job_listings",
+    "title": "Active Frontend Engineering Roles in India",
+    "entities": [
+      "Frontend Engineer",
+      "India",
+      "Software Companies"
+    ],
+    "outputFields": [
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": true,
+        "description": "The name of the hiring company",
+        "validationHint": "Must not be empty",
+        "extractionHint": "Look for headers or company branding on the career page"
+      },
+      {
+        "name": "job_title",
+        "type": "string",
+        "required": true,
+        "description": "The specific title of the frontend role",
+        "validationHint": "Must contain 'Frontend', 'Front-end', or 'UI'",
+        "extractionHint": "Look for H1 tags or job listing titles"
+      },
+      {
+        "name": "location",
+        "type": "string",
+        "required": true,
+        "description": "The office location or remote status",
+        "validationHint": "Must be in India or specified as Remote",
+        "extractionHint": "Look for location metadata or job description text"
+      },
+      {
+        "name": "application_link",
+        "type": "url",
+        "required": true,
+        "description": "Direct URL to the job application page",
+        "validationHint": "Must be a valid, reachable URL",
+        "extractionHint": "Look for 'Apply' or 'Apply Now' button href attributes"
+      },
+      {
+        "name": "source",
+        "type": "string",
+        "required": true,
+        "description": "The platform or website where the job was found",
+        "validationHint": "Must be a valid domain name",
+        "extractionHint": "Extract the base domain of the current page"
+      }
+    ],
+    "searchQueries": [
+      "site:greenhouse.io \"frontend engineer\" India",
+      "site:lever.co \"frontend engineer\" India",
+      "site:ashbyhq.com \"frontend engineer\" India",
+      "site:workable.com \"frontend engineer\" India",
+      "\"frontend engineer\" hiring India careers",
+      "\"frontend developer\" jobs India software company"
+    ],
+    "sourceStrategy": "Prioritize open Applicant Tracking Systems (ATS) and official company career pages to ensure direct, non-gated access to job listings.",
+    "validationRules": [
+      {
+        "field": "application_link",
+        "rule": "Must be a functional URL leading to an application form",
+        "severity": "error"
+      },
+      {
+        "field": "company_name",
+        "rule": "Must be a recognized software company entity",
+        "severity": "warning"
+      }
+    ],
+    "deduplicationKeys": [
+      "company_name",
+      "job_title"
+    ],
+    "targetRecordCount": 20,
+    "maxPasses": 2,
+    "stoppingConditions": [
+      "Target record count reached",
+      "No new unique records found"
+    ],
+    "complianceNotes": "Only using publicly accessible sources"
+  },
+  "error": "EPERM: operation not permitted, rename 'C:\\Users\\Chirag\\.gemini\\antigravity-ide\\scratch\\datapulse-ai\\data\\sources\\cb04a7e4-097f-496d-a291-e8baac489cc7.json.tmp.1790604256948' -> 'C:\\Users\\Chirag\\.gemini\\antigravity-ide\\scratch\\datapulse-ai\\data\\sources\\cb04a7e4-097f-496d-a291-e8baac489cc7.json'"
+}

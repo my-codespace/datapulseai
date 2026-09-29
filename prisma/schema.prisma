@@ -1,0 +1,131 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Task {
+  id            String    @id
+  prompt        String
+  title         String
+  status        String    @default("idle")
+  progress      Int       @default(0)
+  error         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  completedAt   DateTime?
+
+  // Serialized JSON blobs for complex nested structures
+  researchPlan  String?   // JSON: ResearchPlan
+  plan          String    @default("[]") // JSON: WorkflowStep[]
+  interpretation String?  // JSON: legacy interpretation
+  summary       String?   // JSON: TaskSummary
+  quality       String?   // JSON: DataQuality
+  searchProvider String   @default("demo")
+  runNumber     Int       @default(1)
+
+  // Relations
+  logs          Log[]
+  sources       Source[]
+  evidence      Evidence[]
+  records       Record[]
+  runs          Run[]
+}
+
+model Log {
+  id        String   @id
+  taskId    String
+  task      Task     @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  level     String
+  stage     String
+  message   String
+  detail    String?
+  timestamp DateTime @default(now())
+}
+
+model Source {
+  id          String   @id
+  taskId      String
+  task        Task     @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  name        String
+  url         String
+  type        String   @default("web_search")
+  status      String   @default("pending")
+  searchQuery String   @default("")
+  recordsFound Int     @default(0)
+  notes       String?
+  fetchStatus String?
+  fetchedAt   DateTime?
+  evidence    Evidence[]
+}
+
+model Evidence {
+  id           String   @id
+  taskId       String
+  task         Task     @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  sourceId     String
+  source       Source   @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+  sourceName   String
+  sourceUrl    String
+  retrievedAt  DateTime @default(now())
+  snippet      String
+  relevance    Float    @default(80)
+  searchQuery  String   @default("")
+  fieldValues  FieldValue[]
+}
+
+model Record {
+  id           String   @id
+  taskId       String
+  task         Task     @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  sourceId     String   @default("")
+  sourceName   String   @default("")
+  sourceUrl    String   @default("")
+  fields       String   // JSON: flat field values for table display
+  confidence   Float    @default(80)
+  isDuplicate  Boolean  @default(false)
+  duplicateOfId String?
+  isValid      Boolean  @default(true)
+  needsReview  Boolean  @default(false)
+  reviewFlags  String   @default("[]") // JSON array
+  reviewStatus String   @default("pending")
+  reviewedAt   DateTime?
+  reviewNote   String?
+  processedAt  DateTime @default(now())
+  fieldValues  FieldValue[]
+  evidenceIds  String   @default("[]") // JSON array of evidence IDs
+}
+
+model FieldValue {
+  id               String   @id
+  recordId         String
+  record           Record   @relation(fields: [recordId], references: [id], onDelete: Cascade)
+  evidenceId       String?
+  evidence         Evidence? @relation(fields: [evidenceId], references: [id])
+  fieldName        String
+  value            String?
+  originalValue    String?
+  confidence       Float    @default(80)
+  extractionMethod String   @default("source_derived")
+  validationStatus String   @default("valid")
+  validationMessage String?
+  reasoning        String?
+  correctedAt      DateTime?
+}
+
+model Run {
+  id            String   @id
+  taskId        String
+  task          Task     @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  runNumber     Int
+  createdAt     DateTime @default(now())
+  completedAt   DateTime?
+  recordCount   Int      @default(0)
+  comparison    String?  // JSON: RunComparison
+}

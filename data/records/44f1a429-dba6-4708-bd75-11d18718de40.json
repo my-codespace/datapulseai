@@ -1,0 +1,495 @@
+[
+  {
+    "id": "92a905a5-58cd-4254-9504-8e8d4989bf08",
+    "sourceId": "63ca2b99-5c46-469c-867d-e7aa9e38b6e3",
+    "sourceName": "Top 100 Developer Tools Startups to Watch in 2026",
+    "sourceUrl": "https://www.failory.com/startups/developer-tools",
+    "fieldValues": {
+      "company_name": {
+        "value": "Anysphere",
+        "confidence": 100,
+        "evidenceIds": [
+          "8d469a2b-5a56-4560-b031-8e4b741a232d"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "website_url": {
+        "value": null,
+        "confidence": 0,
+        "evidenceIds": [
+          "8d469a2b-5a56-4560-b031-8e4b741a232d"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "warning",
+        "validationMessage": "Required field missing"
+      },
+      "funding_amount": {
+        "value": "$3.4B",
+        "confidence": 100,
+        "evidenceIds": [
+          "8d469a2b-5a56-4560-b031-8e4b741a232d"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "innovation_focus": {
+        "value": "Generative AI tools designed to automate the process of writing software, including the Cursor code editor.",
+        "confidence": 100,
+        "evidenceIds": [
+          "8d469a2b-5a56-4560-b031-8e4b741a232d"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Anysphere",
+      "website_url": null,
+      "funding_amount": "$3.4B",
+      "innovation_focus": "Generative AI tools designed to automate the process of writing software, including the Cursor code editor."
+    },
+    "evidence": [
+      {
+        "id": "8d469a2b-5a56-4560-b031-8e4b741a232d",
+        "sourceId": "63ca2b99-5c46-469c-867d-e7aa9e38b6e3",
+        "sourceName": "Top 100 Developer Tools Startups to Watch in 2026",
+        "sourceUrl": "https://www.failory.com/startups/developer-tools",
+        "retrievedAt": "2026-09-28T13:50:21.284Z",
+        "snippet": "Anysphere builds generative AI tools designed to automate the process of writing software. The company operates as an applied research lab, focusing on solutions like Cursor that help developers code more efficiently.",
+        "relevance": 95,
+        "searchQuery": "best new AI developer tool startups 2024"
+      }
+    ],
+    "confidence": 75,
+    "validationIssues": [
+      {
+        "field": "website_url",
+        "message": "Required field \"website_url\" not found in source",
+        "severity": "warning"
+      }
+    ],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T13:50:35.092Z",
+    "needsReview": true,
+    "reviewFlags": [
+      "missing_required"
+    ],
+    "reviewStatus": "pending",
+    "taskId": "44f1a429-dba6-4708-bd75-11d18718de40"
+  },
+  {
+    "id": "506f75bf-0bc0-4dd3-b173-6eb4b0b59db1",
+    "sourceId": "63ca2b99-5c46-469c-867d-e7aa9e38b6e3",
+    "sourceName": "Top 100 Developer Tools Startups to Watch in 2026",
+    "sourceUrl": "https://www.failory.com/startups/developer-tools",
+    "fieldValues": {
+      "company_name": {
+        "value": "Lovable AI",
+        "confidence": 100,
+        "evidenceIds": [
+          "3d15fb9f-5b9b-4436-bba4-c2d1bc9f563d"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "website_url": {
+        "value": null,
+        "confidence": 0,
+        "evidenceIds": [
+          "3d15fb9f-5b9b-4436-bba4-c2d1bc9f563d"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "warning",
+        "validationMessage": "Required field missing"
+      },
+      "funding_amount": {
+        "value": "$222.5M",
+        "confidence": 100,
+        "evidenceIds": [
+          "3d15fb9f-5b9b-4436-bba4-c2d1bc9f563d"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "innovation_focus": {
+        "value": "AI-powered platform that enables users to build software products without extensive coding skills.",
+        "confidence": 100,
+        "evidenceIds": [
+          "3d15fb9f-5b9b-4436-bba4-c2d1bc9f563d"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Lovable AI",
+      "website_url": null,
+      "funding_amount": "$222.5M",
+      "innovation_focus": "AI-powered platform that enables users to build software products without extensive coding skills."
+    },
+    "evidence": [
+      {
+        "id": "3d15fb9f-5b9b-4436-bba4-c2d1bc9f563d",
+        "sourceId": "63ca2b99-5c46-469c-867d-e7aa9e38b6e3",
+        "sourceName": "Top 100 Developer Tools Startups to Watch in 2026",
+        "sourceUrl": "https://www.failory.com/startups/developer-tools",
+        "retrievedAt": "2026-09-28T13:50:21.284Z",
+        "snippet": "Lovable created an AI-powered platform that enables users to build software products without extensive coding skills. Their tool helps teams turn ideas into applications faster by using AI to handle the underlying development work.",
+        "relevance": 95,
+        "searchQuery": "best new AI developer tool startups 2024"
+      }
+    ],
+    "confidence": 75,
+    "validationIssues": [
+      {
+        "field": "website_url",
+        "message": "Required field \"website_url\" not found in source",
+        "severity": "warning"
+      }
+    ],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T13:50:35.092Z",
+    "needsReview": true,
+    "reviewFlags": [
+      "missing_required"
+    ],
+    "reviewStatus": "pending",
+    "taskId": "44f1a429-dba6-4708-bd75-11d18718de40"
+  },
+  {
+    "id": "f0acae79-3e3a-4706-b749-b5361f4ae96e",
+    "sourceId": "af64a517-8d7b-41bb-b0a2-eeda5fd30b50",
+    "sourceName": "AI Assistant Startups funded by Y Combinator (YC) 2026 | Y Combinator",
+    "sourceUrl": "https://www.ycombinator.com/companies/industry/ai-assistant",
+    "fieldValues": {
+      "company_name": {
+        "value": "Herdr",
+        "confidence": 100,
+        "evidenceIds": [
+          "d307f0a3-8a09-46d1-b054-87a0c6e74ab6"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "website_url": {
+        "value": null,
+        "confidence": 0,
+        "evidenceIds": [
+          "d307f0a3-8a09-46d1-b054-87a0c6e74ab6"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "warning",
+        "validationMessage": "Required field missing"
+      },
+      "funding_amount": {
+        "value": null,
+        "confidence": 0,
+        "evidenceIds": [
+          "d307f0a3-8a09-46d1-b054-87a0c6e74ab6"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "warning",
+        "validationMessage": "Required field missing"
+      },
+      "innovation_focus": {
+        "value": "Open-source home for managing fleets of AI coding agents, providing a background server to own terminal sessions.",
+        "confidence": 100,
+        "evidenceIds": [
+          "d307f0a3-8a09-46d1-b054-87a0c6e74ab6"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Herdr",
+      "website_url": null,
+      "funding_amount": null,
+      "innovation_focus": "Open-source home for managing fleets of AI coding agents, providing a background server to own terminal sessions."
+    },
+    "evidence": [
+      {
+        "id": "d307f0a3-8a09-46d1-b054-87a0c6e74ab6",
+        "sourceId": "af64a517-8d7b-41bb-b0a2-eeda5fd30b50",
+        "sourceName": "AI Assistant Startups funded by Y Combinator (YC) 2026 | Y Combinator",
+        "sourceUrl": "https://www.ycombinator.com/companies/industry/ai-assistant",
+        "retrievedAt": "2026-09-28T13:50:24.032Z",
+        "snippet": "Herdr is the open-source home for that work. A background server owns the agents' terminal sessions on each machine, so the work survives disconnects, closed lids, and dropped SSH.",
+        "relevance": 90,
+        "searchQuery": "top funded AI coding assistant startups 2024"
+      }
+    ],
+    "confidence": 50,
+    "validationIssues": [
+      {
+        "field": "website_url",
+        "message": "Required field \"website_url\" not found in source",
+        "severity": "warning"
+      },
+      {
+        "field": "funding_amount",
+        "message": "Required field \"funding_amount\" not found in source",
+        "severity": "warning"
+      }
+    ],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T13:50:35.092Z",
+    "needsReview": true,
+    "reviewFlags": [
+      "missing_required",
+      "low_confidence"
+    ],
+    "reviewStatus": "pending",
+    "taskId": "44f1a429-dba6-4708-bd75-11d18718de40"
+  },
+  {
+    "id": "0fd275c1-21d7-4aaa-beee-fc5bcd26976a",
+    "sourceId": "9ae3e075-b8c2-4bf9-96e2-4d46b2abdc25",
+    "sourceName": "The Week’s 10 Biggest Funding Rounds: AI Tools And Assistants Lead Sparser Lineup Of Megadeals",
+    "sourceUrl": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-tools-assistants-instinct/",
+    "fieldValues": {
+      "company_name": {
+        "value": "Instinct",
+        "confidence": 100,
+        "evidenceIds": [
+          "c9fb69c8-2adb-47c8-989c-fcd1160f8873"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "website_url": {
+        "value": null,
+        "confidence": 100,
+        "evidenceIds": [
+          "c9fb69c8-2adb-47c8-989c-fcd1160f8873"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "warning",
+        "validationMessage": "Required field missing"
+      },
+      "funding_amount": {
+        "value": "$250 million",
+        "confidence": 100,
+        "evidenceIds": [
+          "c9fb69c8-2adb-47c8-989c-fcd1160f8873"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "innovation_focus": {
+        "value": "AI assistant for developers",
+        "confidence": 100,
+        "evidenceIds": [
+          "c9fb69c8-2adb-47c8-989c-fcd1160f8873"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Instinct",
+      "website_url": null,
+      "funding_amount": "$250 million",
+      "innovation_focus": "AI assistant for developers"
+    },
+    "evidence": [
+      {
+        "id": "c9fb69c8-2adb-47c8-989c-fcd1160f8873",
+        "sourceId": "9ae3e075-b8c2-4bf9-96e2-4d46b2abdc25",
+        "sourceName": "The Week’s 10 Biggest Funding Rounds: AI Tools And Assistants Lead Sparser Lineup Of Megadeals",
+        "sourceUrl": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-tools-assistants-instinct/",
+        "retrievedAt": "2026-09-28T13:50:53.075Z",
+        "snippet": "Instinct, a startup developing and beta testing an AI assistant, is raising $250 million in a Series B valuing the San Francisco company at $2.5 billion.",
+        "relevance": 95,
+        "searchQuery": "Crunchbase AI developer tools funding 2024"
+      }
+    ],
+    "confidence": 100,
+    "validationIssues": [
+      {
+        "field": "website_url",
+        "message": "Required field \"website_url\" not found in source",
+        "severity": "warning"
+      }
+    ],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T13:51:03.350Z",
+    "needsReview": true,
+    "reviewFlags": [
+      "missing_required"
+    ],
+    "reviewStatus": "pending",
+    "taskId": "44f1a429-dba6-4708-bd75-11d18718de40"
+  },
+  {
+    "id": "95e1f99a-3fbb-4f76-8757-6f9a6a476f4a",
+    "sourceId": "f134a0c3-0fdf-425a-b00a-4d81f51e356d",
+    "sourceName": "North American Startup Funding Soared 46% In 2025, Driven By AI Boom",
+    "sourceUrl": "https://news.crunchbase.com/venture/north-american-startup-funding-2025-data-ai-us-investment/",
+    "fieldValues": {
+      "company_name": {
+        "value": "Reflection AI",
+        "confidence": 100,
+        "evidenceIds": [
+          "fee15351-bedf-46fb-a5cc-55a71cc19085"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "website_url": {
+        "value": null,
+        "confidence": 100,
+        "evidenceIds": [
+          "fee15351-bedf-46fb-a5cc-55a71cc19085"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "warning",
+        "validationMessage": "Required field missing"
+      },
+      "funding_amount": {
+        "value": "$2 billion",
+        "confidence": 100,
+        "evidenceIds": [
+          "fee15351-bedf-46fb-a5cc-55a71cc19085"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "innovation_focus": {
+        "value": "Software development AI",
+        "confidence": 100,
+        "evidenceIds": [
+          "fee15351-bedf-46fb-a5cc-55a71cc19085"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Reflection AI",
+      "website_url": null,
+      "funding_amount": "$2 billion",
+      "innovation_focus": "Software development AI"
+    },
+    "evidence": [
+      {
+        "id": "fee15351-bedf-46fb-a5cc-55a71cc19085",
+        "sourceId": "f134a0c3-0fdf-425a-b00a-4d81f51e356d",
+        "sourceName": "North American Startup Funding Soared 46% In 2025, Driven By AI Boom",
+        "sourceUrl": "https://news.crunchbase.com/venture/north-american-startup-funding-2025-data-ai-us-investment/",
+        "retrievedAt": "2026-09-28T13:50:54.074Z",
+        "snippet": "For Q4, the largest AI deals were a $2.3 billion Series D for Anysphere and its Cursor coding automation platform, and a $2 billion Series B for software development AI startup Reflection AI.",
+        "relevance": 95,
+        "searchQuery": "Crunchbase AI developer tools funding 2024"
+      }
+    ],
+    "confidence": 100,
+    "validationIssues": [
+      {
+        "field": "website_url",
+        "message": "Required field \"website_url\" not found in source",
+        "severity": "warning"
+      }
+    ],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T13:51:03.350Z",
+    "needsReview": true,
+    "reviewFlags": [
+      "missing_required"
+    ],
+    "reviewStatus": "pending",
+    "taskId": "44f1a429-dba6-4708-bd75-11d18718de40"
+  },
+  {
+    "id": "ba2afc2f-ba17-4d2d-b726-0f5461deb3e8",
+    "sourceId": "5dce5f7d-f572-4e51-af9b-6dca9244a738",
+    "sourceName": "85 Hottest AI Startups to Watch in 2026 [By Valuation, Funding, & Growth]",
+    "sourceUrl": "https://wellows.com/blog/ai-startups/",
+    "fieldValues": {
+      "company_name": {
+        "value": "Cognition AI",
+        "confidence": 100,
+        "evidenceIds": [
+          "62e5ebd8-3bf3-44e7-808c-67df3b3340e5"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "website_url": {
+        "value": null,
+        "confidence": 100,
+        "evidenceIds": [
+          "62e5ebd8-3bf3-44e7-808c-67df3b3340e5"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "warning",
+        "validationMessage": "Required field missing"
+      },
+      "funding_amount": {
+        "value": null,
+        "confidence": 100,
+        "evidenceIds": [
+          "62e5ebd8-3bf3-44e7-808c-67df3b3340e5"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "warning",
+        "validationMessage": "Required field missing"
+      },
+      "innovation_focus": {
+        "value": "Autonomous coding",
+        "confidence": 100,
+        "evidenceIds": [
+          "62e5ebd8-3bf3-44e7-808c-67df3b3340e5"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Cognition AI",
+      "website_url": null,
+      "funding_amount": null,
+      "innovation_focus": "Autonomous coding"
+    },
+    "evidence": [
+      {
+        "id": "62e5ebd8-3bf3-44e7-808c-67df3b3340e5",
+        "sourceId": "5dce5f7d-f572-4e51-af9b-6dca9244a738",
+        "sourceName": "85 Hottest AI Startups to Watch in 2026 [By Valuation, Funding, & Growth]",
+        "sourceUrl": "https://wellows.com/blog/ai-startups/",
+        "retrievedAt": "2026-09-28T13:50:55.147Z",
+        "snippet": "Other Hot Startups: AI Agents & Infrastructure: Cognition AI (autonomous coding)",
+        "relevance": 90,
+        "searchQuery": "top seed series A AI software engineering startups 2024"
+      }
+    ],
+    "confidence": 100,
+    "validationIssues": [
+      {
+        "field": "website_url",
+        "message": "Required field \"website_url\" not found in source",
+        "severity": "warning"
+      },
+      {
+        "field": "funding_amount",
+        "message": "Required field \"funding_amount\" not found in source",
+        "severity": "warning"
+      }
+    ],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T13:51:03.350Z",
+    "needsReview": true,
+    "reviewFlags": [
+      "missing_required"
+    ],
+    "reviewStatus": "pending",
+    "taskId": "44f1a429-dba6-4708-bd75-11d18718de40"
+  }
+]

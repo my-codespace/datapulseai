@@ -1,0 +1,569 @@
+[
+  {
+    "id": "1c82f669-4ab6-4176-8504-a2db45fa4315",
+    "sourceId": "b5e6f394-b5b2-4da7-b9c2-fbed2f79abec",
+    "sourceName": "Job Application for 09.Frontend Engineer at PayPay India",
+    "sourceUrl": "http://job-boards.greenhouse.io/pay2dc/jobs/4671610006",
+    "fieldValues": {
+      "company_name": {
+        "value": "PayPay India",
+        "confidence": 100,
+        "evidenceIds": [
+          "8a773ce7-3cbf-4eaf-8a0b-24ab40739aec"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "job_title": {
+        "value": "09.Frontend Engineer",
+        "confidence": 100,
+        "evidenceIds": [
+          "8a773ce7-3cbf-4eaf-8a0b-24ab40739aec"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "job_url": {
+        "value": "http://job-boards.greenhouse.io/pay2dc/jobs/4671610006",
+        "confidence": 100,
+        "evidenceIds": [
+          "8a773ce7-3cbf-4eaf-8a0b-24ab40739aec"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "location": {
+        "value": "Gurugram, India",
+        "confidence": 100,
+        "evidenceIds": [
+          "8a773ce7-3cbf-4eaf-8a0b-24ab40739aec"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "posted_date": {
+        "value": null,
+        "confidence": 100,
+        "evidenceIds": [
+          "8a773ce7-3cbf-4eaf-8a0b-24ab40739aec"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "PayPay India",
+      "job_title": "09.Frontend Engineer",
+      "job_url": "http://job-boards.greenhouse.io/pay2dc/jobs/4671610006",
+      "location": "Gurugram, India",
+      "posted_date": null
+    },
+    "evidence": [
+      {
+        "id": "8a773ce7-3cbf-4eaf-8a0b-24ab40739aec",
+        "sourceId": "b5e6f394-b5b2-4da7-b9c2-fbed2f79abec",
+        "sourceName": "Job Application for 09.Frontend Engineer at PayPay India",
+        "sourceUrl": "http://job-boards.greenhouse.io/pay2dc/jobs/4671610006",
+        "retrievedAt": "2026-09-28T14:13:38.986Z",
+        "snippet": "PayPay India is looking for a Frontend Engineer to work on our payment system to deliver the best payment experience for our customers.",
+        "relevance": 100,
+        "searchQuery": "site:greenhouse.io \"frontend engineer\" India"
+      }
+    ],
+    "confidence": 100,
+    "validationIssues": [],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T14:14:34.234Z",
+    "needsReview": false,
+    "reviewFlags": [],
+    "reviewStatus": "pending",
+    "taskId": "bfd0a225-863e-4a42-8ece-e29f672891e6"
+  },
+  {
+    "id": "1cdee4f3-e3e5-4c6e-b993-1dc6a74ce0d3",
+    "sourceId": "1d858618-bc4a-48e4-a465-1051f9a0ee3d",
+    "sourceName": "Job Application for Senior Frontend Engineer at GitLab",
+    "sourceUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8826920002",
+    "fieldValues": {
+      "company_name": {
+        "value": "GitLab",
+        "confidence": 100,
+        "evidenceIds": [
+          "d23cc5d5-8520-443a-986a-a41e59c32421"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "job_title": {
+        "value": "Senior Frontend Engineer",
+        "confidence": 100,
+        "evidenceIds": [
+          "d23cc5d5-8520-443a-986a-a41e59c32421"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "job_url": {
+        "value": "https://job-boards.greenhouse.io/gitlab/jobs/8826920002",
+        "confidence": 100,
+        "evidenceIds": [
+          "d23cc5d5-8520-443a-986a-a41e59c32421"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "location": {
+        "value": "Bangalore, India",
+        "confidence": 100,
+        "evidenceIds": [
+          "d23cc5d5-8520-443a-986a-a41e59c32421"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "posted_date": {
+        "value": null,
+        "confidence": 100,
+        "evidenceIds": [
+          "d23cc5d5-8520-443a-986a-a41e59c32421"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "GitLab",
+      "job_title": "Senior Frontend Engineer",
+      "job_url": "https://job-boards.greenhouse.io/gitlab/jobs/8826920002",
+      "location": "Bangalore, India",
+      "posted_date": null
+    },
+    "evidence": [
+      {
+        "id": "d23cc5d5-8520-443a-986a-a41e59c32421",
+        "sourceId": "1d858618-bc4a-48e4-a465-1051f9a0ee3d",
+        "sourceName": "Job Application for Senior Frontend Engineer at GitLab",
+        "sourceUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8826920002",
+        "retrievedAt": "2026-09-28T14:13:40.173Z",
+        "snippet": "NewSenior Frontend EngineerBangalore, IndiaApply",
+        "relevance": 100,
+        "searchQuery": "site:greenhouse.io \"frontend engineer\" India"
+      }
+    ],
+    "confidence": 100,
+    "validationIssues": [],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T14:14:34.234Z",
+    "needsReview": false,
+    "reviewFlags": [],
+    "reviewStatus": "pending",
+    "taskId": "bfd0a225-863e-4a42-8ece-e29f672891e6"
+  },
+  {
+    "id": "7b448c83-5ad4-438d-a10b-042d7519216c",
+    "sourceId": "aac9419d-0b63-4f04-9c30-aead91536971",
+    "sourceName": "Job Application for Staff Frontend Engineer at GitLab",
+    "sourceUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8826965002",
+    "fieldValues": {
+      "company_name": {
+        "value": "GitLab",
+        "confidence": 100,
+        "evidenceIds": [
+          "c1cad48d-a4d2-4759-94e0-02f5031b9e2e"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "job_title": {
+        "value": "Staff Frontend Engineer",
+        "confidence": 100,
+        "evidenceIds": [
+          "c1cad48d-a4d2-4759-94e0-02f5031b9e2e"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "job_url": {
+        "value": "https://job-boards.greenhouse.io/gitlab/jobs/8826965002",
+        "confidence": 100,
+        "evidenceIds": [
+          "c1cad48d-a4d2-4759-94e0-02f5031b9e2e"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "location": {
+        "value": "Bangalore, India",
+        "confidence": 100,
+        "evidenceIds": [
+          "c1cad48d-a4d2-4759-94e0-02f5031b9e2e"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "posted_date": {
+        "value": null,
+        "confidence": 100,
+        "evidenceIds": [
+          "c1cad48d-a4d2-4759-94e0-02f5031b9e2e"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "GitLab",
+      "job_title": "Staff Frontend Engineer",
+      "job_url": "https://job-boards.greenhouse.io/gitlab/jobs/8826965002",
+      "location": "Bangalore, India",
+      "posted_date": null
+    },
+    "evidence": [
+      {
+        "id": "c1cad48d-a4d2-4759-94e0-02f5031b9e2e",
+        "sourceId": "aac9419d-0b63-4f04-9c30-aead91536971",
+        "sourceName": "Job Application for Staff Frontend Engineer at GitLab",
+        "sourceUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8826965002",
+        "retrievedAt": "2026-09-28T14:13:40.175Z",
+        "snippet": "NewStaff Frontend EngineerBangalore, IndiaApply",
+        "relevance": 100,
+        "searchQuery": "site:greenhouse.io \"frontend engineer\" India"
+      }
+    ],
+    "confidence": 100,
+    "validationIssues": [],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T14:14:34.234Z",
+    "needsReview": false,
+    "reviewFlags": [],
+    "reviewStatus": "pending",
+    "taskId": "bfd0a225-863e-4a42-8ece-e29f672891e6"
+  },
+  {
+    "id": "54e31f75-3c68-41ca-9568-6972ec10204c",
+    "sourceId": "95edeabb-219b-42fa-b1ae-11ca74c04768",
+    "sourceName": "Job Application for Frontend Engineer  at KRAFTON INDIA",
+    "sourceUrl": "https://job-boards.greenhouse.io/kraftonindia/jobs/8514438002",
+    "fieldValues": {
+      "company_name": {
+        "value": "KRAFTON INDIA",
+        "confidence": 100,
+        "evidenceIds": [
+          "9c61e281-274d-4d89-8844-38937a9068a1"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "job_title": {
+        "value": "Frontend Engineer",
+        "confidence": 100,
+        "evidenceIds": [
+          "9c61e281-274d-4d89-8844-38937a9068a1"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "job_url": {
+        "value": "https://job-boards.greenhouse.io/kraftonindia/jobs/8514438002",
+        "confidence": 100,
+        "evidenceIds": [
+          "9c61e281-274d-4d89-8844-38937a9068a1"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "location": {
+        "value": "Bengaluru",
+        "confidence": 100,
+        "evidenceIds": [
+          "9c61e281-274d-4d89-8844-38937a9068a1"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "posted_date": {
+        "value": null,
+        "confidence": 100,
+        "evidenceIds": [
+          "9c61e281-274d-4d89-8844-38937a9068a1"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "KRAFTON INDIA",
+      "job_title": "Frontend Engineer",
+      "job_url": "https://job-boards.greenhouse.io/kraftonindia/jobs/8514438002",
+      "location": "Bengaluru",
+      "posted_date": null
+    },
+    "evidence": [
+      {
+        "id": "9c61e281-274d-4d89-8844-38937a9068a1",
+        "sourceId": "95edeabb-219b-42fa-b1ae-11ca74c04768",
+        "sourceName": "Job Application for Frontend Engineer  at KRAFTON INDIA",
+        "sourceUrl": "https://job-boards.greenhouse.io/kraftonindia/jobs/8514438002",
+        "retrievedAt": "2026-09-28T14:13:40.175Z",
+        "snippet": "Frontend Engineer BengaluruApply",
+        "relevance": 100,
+        "searchQuery": "site:greenhouse.io \"frontend engineer\" India"
+      }
+    ],
+    "confidence": 100,
+    "validationIssues": [],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T14:14:34.234Z",
+    "needsReview": false,
+    "reviewFlags": [],
+    "reviewStatus": "pending",
+    "taskId": "bfd0a225-863e-4a42-8ece-e29f672891e6"
+  },
+  {
+    "id": "dae6b45e-a076-4de1-b385-9e59423f5aec",
+    "sourceId": "4689eba8-54ef-4588-8812-a1f24cd276d4",
+    "sourceName": "Z1 Tech - Frontend Developer",
+    "sourceUrl": "https://jobs.lever.co/z1tech/38960f0e-34cd-47b9-95e8-e6eb05342f5e",
+    "fieldValues": {
+      "company_name": {
+        "value": "Z1 Tech",
+        "confidence": 100,
+        "evidenceIds": [
+          "0371b64b-93d4-4df5-9380-5b44d33a55b0"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "job_title": {
+        "value": "Frontend Developer",
+        "confidence": 100,
+        "evidenceIds": [
+          "0371b64b-93d4-4df5-9380-5b44d33a55b0"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "job_url": {
+        "value": "https://jobs.lever.co/z1tech/38960f0e-34cd-47b9-95e8-e6eb05342f5e",
+        "confidence": 100,
+        "evidenceIds": [
+          "0371b64b-93d4-4df5-9380-5b44d33a55b0"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "location": {
+        "value": "Gurgaon",
+        "confidence": 100,
+        "evidenceIds": [
+          "0371b64b-93d4-4df5-9380-5b44d33a55b0"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "posted_date": {
+        "value": null,
+        "confidence": 100,
+        "evidenceIds": [
+          "0371b64b-93d4-4df5-9380-5b44d33a55b0"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Z1 Tech",
+      "job_title": "Frontend Developer",
+      "job_url": "https://jobs.lever.co/z1tech/38960f0e-34cd-47b9-95e8-e6eb05342f5e",
+      "location": "Gurgaon",
+      "posted_date": null
+    },
+    "evidence": [
+      {
+        "id": "0371b64b-93d4-4df5-9380-5b44d33a55b0",
+        "sourceId": "4689eba8-54ef-4588-8812-a1f24cd276d4",
+        "sourceName": "Z1 Tech - Frontend Developer",
+        "sourceUrl": "https://jobs.lever.co/z1tech/38960f0e-34cd-47b9-95e8-e6eb05342f5e",
+        "retrievedAt": "2026-09-28T14:13:40.638Z",
+        "snippet": "Frontend DeveloperGurgaonVDO.AI – Technology /Full Time /On-siteapply for this job",
+        "relevance": 100,
+        "searchQuery": "site:lever.co \"frontend developer\" India"
+      }
+    ],
+    "confidence": 100,
+    "validationIssues": [],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T14:14:34.234Z",
+    "needsReview": false,
+    "reviewFlags": [],
+    "reviewStatus": "pending",
+    "taskId": "bfd0a225-863e-4a42-8ece-e29f672891e6"
+  },
+  {
+    "id": "473dce37-d5e4-448e-890e-00dfc552658a",
+    "sourceId": "19cd76ab-d9ef-4bf1-9145-f77b72f39f20",
+    "sourceName": "Lingaro",
+    "sourceUrl": "https://jobs.lever.co/lingarogroup",
+    "fieldValues": {
+      "company_name": {
+        "value": "Lingaro",
+        "confidence": 100,
+        "evidenceIds": [
+          "9e5c6077-9e43-4070-a728-6c1affbbc451"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "job_title": {
+        "value": "Front End Developer",
+        "confidence": 100,
+        "evidenceIds": [
+          "9e5c6077-9e43-4070-a728-6c1affbbc451"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "job_url": {
+        "value": "https://jobs.lever.co/lingarogroup",
+        "confidence": 100,
+        "evidenceIds": [
+          "9e5c6077-9e43-4070-a728-6c1affbbc451"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "location": {
+        "value": "India",
+        "confidence": 100,
+        "evidenceIds": [
+          "9e5c6077-9e43-4070-a728-6c1affbbc451"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "posted_date": {
+        "value": null,
+        "confidence": 100,
+        "evidenceIds": [
+          "9e5c6077-9e43-4070-a728-6c1affbbc451"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Lingaro",
+      "job_title": "Front End Developer",
+      "job_url": "https://jobs.lever.co/lingarogroup",
+      "location": "India",
+      "posted_date": null
+    },
+    "evidence": [
+      {
+        "id": "9e5c6077-9e43-4070-a728-6c1affbbc451",
+        "sourceId": "19cd76ab-d9ef-4bf1-9145-f77b72f39f20",
+        "sourceName": "Lingaro",
+        "sourceUrl": "https://jobs.lever.co/lingarogroup",
+        "retrievedAt": "2026-09-28T14:13:42.939Z",
+        "snippet": "Front End Developer. Remote — Full-timeIndia · Apply",
+        "relevance": 100,
+        "searchQuery": "site:lever.co \"frontend developer\" India"
+      }
+    ],
+    "confidence": 100,
+    "validationIssues": [],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T14:14:34.234Z",
+    "needsReview": false,
+    "reviewFlags": [],
+    "reviewStatus": "pending",
+    "taskId": "bfd0a225-863e-4a42-8ece-e29f672891e6"
+  },
+  {
+    "id": "47776477-cc31-4e7e-a5d9-d51e85ec7e76",
+    "sourceId": "19cd76ab-d9ef-4bf1-9145-f77b72f39f20",
+    "sourceName": "Lingaro",
+    "sourceUrl": "https://jobs.lever.co/lingarogroup",
+    "fieldValues": {
+      "company_name": {
+        "value": "Lingaro",
+        "confidence": 100,
+        "evidenceIds": [
+          "bacfc1bf-47e6-405c-bf0f-d693193a1894"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "job_title": {
+        "value": "Frontend Developer",
+        "confidence": 100,
+        "evidenceIds": [
+          "bacfc1bf-47e6-405c-bf0f-d693193a1894"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "job_url": {
+        "value": "https://jobs.lever.co/lingarogroup",
+        "confidence": 100,
+        "evidenceIds": [
+          "bacfc1bf-47e6-405c-bf0f-d693193a1894"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "location": {
+        "value": "India",
+        "confidence": 100,
+        "evidenceIds": [
+          "bacfc1bf-47e6-405c-bf0f-d693193a1894"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "posted_date": {
+        "value": null,
+        "confidence": 100,
+        "evidenceIds": [
+          "bacfc1bf-47e6-405c-bf0f-d693193a1894"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Lingaro",
+      "job_title": "Frontend Developer",
+      "job_url": "https://jobs.lever.co/lingarogroup",
+      "location": "India",
+      "posted_date": null
+    },
+    "evidence": [
+      {
+        "id": "bacfc1bf-47e6-405c-bf0f-d693193a1894",
+        "sourceId": "19cd76ab-d9ef-4bf1-9145-f77b72f39f20",
+        "sourceName": "Lingaro",
+        "sourceUrl": "https://jobs.lever.co/lingarogroup",
+        "retrievedAt": "2026-09-28T14:13:42.939Z",
+        "snippet": "Frontend Developer - Fr",
+        "relevance": 100,
+        "searchQuery": "site:lever.co \"frontend developer\" India"
+      }
+    ],
+    "confidence": 100,
+    "validationIssues": [],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T14:14:34.234Z",
+    "needsReview": false,
+    "reviewFlags": [],
+    "reviewStatus": "pending",
+    "taskId": "bfd0a225-863e-4a42-8ece-e29f672891e6"
+  }
+]

@@ -1,0 +1,189 @@
+{
+  "id": "418afb84-0a7b-4e59-a021-448e28487e9c",
+  "prompt": "Find 5 software engineering job openings at Indian tech startups hiring React developers",
+  "title": "React Developer Roles in Indian Startups",
+  "status": "completed",
+  "progress": 100,
+  "plan": [
+    {
+      "id": "plan",
+      "name": "Research Planning",
+      "description": "AI generates a dynamic research plan tailored to your request",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:16:33.770Z",
+      "completedAt": "2026-09-28T13:18:21.386Z",
+      "detail": "4 fields · 5 queries · target 20 records"
+    },
+    {
+      "id": "search",
+      "name": "Web Search",
+      "description": "Execute search queries to find relevant sources",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:18:47.450Z",
+      "completedAt": "2026-09-28T13:18:50.227Z",
+      "detail": "8 queries → 0 candidate sources"
+    },
+    {
+      "id": "retrieve",
+      "name": "Content Retrieval",
+      "description": "Fetch and sanitize content from candidate sources",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:18:50.232Z",
+      "completedAt": "2026-09-28T13:18:50.238Z",
+      "detail": "0 pages retrieved · 0 blocked"
+    },
+    {
+      "id": "extract",
+      "name": "Evidence-Grounded Extraction",
+      "description": "AI extracts structured data strictly from retrieved source content",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:18:50.240Z",
+      "completedAt": "2026-09-28T13:18:50.246Z",
+      "recordsProcessed": 0,
+      "detail": "0 new records · 0 total across all passes"
+    },
+    {
+      "id": "evaluate",
+      "name": "Coverage Evaluation",
+      "description": "Evaluate coverage and decide on additional passes",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:18:50.248Z",
+      "completedAt": "2026-09-28T13:18:50.253Z",
+      "detail": "Maximum passes (2) reached"
+    },
+    {
+      "id": "validate",
+      "name": "Validate & Deduplicate",
+      "description": "Field validation, deduplication, and review flagging",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:18:50.255Z",
+      "completedAt": "2026-09-28T13:18:50.260Z",
+      "recordsProcessed": 0,
+      "detail": "0 dupes removed · 0 valid · 0 need review"
+    },
+    {
+      "id": "score",
+      "name": "Quality Scoring",
+      "description": "Calculate data quality metrics across all dimensions",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:18:50.263Z",
+      "completedAt": "2026-09-28T13:18:50.268Z",
+      "detail": "0% complete · 0% evidence-backed · 0% confidence"
+    },
+    {
+      "id": "finalize",
+      "name": "Finalize Dataset",
+      "description": "Compile final dataset with full provenance chain",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:18:50.270Z",
+      "completedAt": "2026-09-28T13:18:50.274Z",
+      "detail": "0 records · 0 evidence items · 2 passes"
+    }
+  ],
+  "searchProvider": "Demo (no search API configured)",
+  "runNumber": 1,
+  "createdAt": "2026-09-28T13:16:33.699Z",
+  "updatedAt": "2026-09-28T13:18:50.277Z",
+  "researchPlan": {
+    "objective": "Identify 5 current React developer job openings at Indian technology startups.",
+    "researchType": "job_listings",
+    "title": "React Developer Roles in Indian Startups",
+    "entities": [
+      "React",
+      "Indian Tech Startups"
+    ],
+    "outputFields": [
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": true,
+        "description": "The name of the hiring startup",
+        "validationHint": "Must be a recognized Indian tech entity",
+        "extractionHint": "Look for company headers or branding"
+      },
+      {
+        "name": "job_title",
+        "type": "string",
+        "required": true,
+        "description": "The specific title of the React developer role",
+        "validationHint": "Must contain React or Frontend developer keywords",
+        "extractionHint": "Look for H1 or job title headers"
+      },
+      {
+        "name": "job_url",
+        "type": "url",
+        "required": true,
+        "description": "Direct link to the job application page",
+        "validationHint": "Must be a valid, reachable URL",
+        "extractionHint": "Look for 'Apply' or 'View Job' buttons"
+      },
+      {
+        "name": "location",
+        "type": "string",
+        "required": true,
+        "description": "City or remote status of the role",
+        "validationHint": "Must be within India or Remote",
+        "extractionHint": "Look for location tags or job description text"
+      }
+    ],
+    "searchQueries": [
+      "site:wellfound.com 'React' 'India' startup hiring",
+      "site:linkedin.com/jobs 'React developer' 'startup' India",
+      "site:naukri.com 'React' 'startup' India job openings",
+      "site:instahyre.com 'React' 'startup' India",
+      "top Indian tech startups hiring React developers 2024"
+    ],
+    "sourceStrategy": "Prioritize startup-focused job boards like Wellfound and Instahyre, followed by major aggregators, to ensure the 'startup' criteria is met.",
+    "validationRules": [
+      {
+        "field": "job_url",
+        "rule": "Must be a live, active link to a job description",
+        "severity": "error"
+      },
+      {
+        "field": "company_name",
+        "rule": "Must be a verifiable Indian tech startup",
+        "severity": "warning"
+      }
+    ],
+    "deduplicationKeys": [
+      "company_name",
+      "job_title"
+    ],
+    "targetRecordCount": 20,
+    "maxPasses": 2,
+    "stoppingConditions": [
+      "Target record count reached",
+      "No new unique records found"
+    ],
+    "complianceNotes": "Only using publicly accessible sources"
+  },
+  "completedAt": "2026-09-28T13:18:50.276Z",
+  "summary": {
+    "totalRaw": 0,
+    "totalProcessed": 0,
+    "duplicatesRemoved": 0,
+    "validationErrors": 0,
+    "validationWarnings": 0,
+    "avgConfidence": 0,
+    "sourcesSucceeded": 0,
+    "sourcesFailed": 3,
+    "sourcesBlocked": 0,
+    "topSources": [],
+    "searchQueriesRun": 8,
+    "pagesRetrieved": 0,
+    "evidenceItems": 0,
+    "passesCompleted": 2,
+    "isDemo": true
+  },
+  "quality": {
+    "completeness": 0,
+    "validity": 0,
+    "uniqueness": 100,
+    "evidenceCoverage": 0,
+    "avgConfidence": 0,
+    "freshness": "2026-09-28T13:18:50.267Z",
+    "fieldQuality": {},
+    "recordsNeedingReview": 0
+  }
+}

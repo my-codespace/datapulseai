@@ -1,0 +1,12 @@
+[
+  {
+    "id": "demo-source",
+    "taskId": "9b23b86f-e275-4884-bfcc-042d17203dd0",
+    "name": "[DEMO DATA — simulated]",
+    "url": "https://datapulse.example/demo",
+    "type": "web_search",
+    "status": "completed",
+    "searchQuery": "top robotics companies headquartered in Tokyo",
+    "notes": "Demo mode: AI-generated records, not from real web research"
+  }
+]

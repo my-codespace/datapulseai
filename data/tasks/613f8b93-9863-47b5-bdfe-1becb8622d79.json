@@ -1,0 +1,151 @@
+{
+  "id": "613f8b93-9863-47b5-bdfe-1becb8622d79",
+  "prompt": "Find 3 active seed-stage AI healthcare startups in the US with website and founder names",
+  "title": "Seed-Stage US AI Healthcare Startup Discovery",
+  "status": "failed",
+  "progress": 68,
+  "plan": [
+    {
+      "id": "plan",
+      "name": "Research Planning",
+      "description": "AI generates a dynamic research plan tailored to your request",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:44:22.066Z",
+      "completedAt": "2026-09-28T13:44:29.646Z",
+      "detail": "4 fields · 4 queries · target 20 records"
+    },
+    {
+      "id": "search",
+      "name": "Web Search",
+      "description": "Execute search queries to find relevant sources",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:46:04.228Z",
+      "completedAt": "2026-09-28T13:46:10.796Z",
+      "detail": "7 queries → 18 candidate sources"
+    },
+    {
+      "id": "retrieve",
+      "name": "Content Retrieval",
+      "description": "Fetch and sanitize content from candidate sources",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:46:10.929Z",
+      "completedAt": "2026-09-28T13:46:15.793Z",
+      "detail": "19 pages retrieved · 9 blocked"
+    },
+    {
+      "id": "extract",
+      "name": "Evidence-Grounded Extraction",
+      "description": "AI extracts structured data strictly from retrieved source content",
+      "status": "failed",
+      "startedAt": "2026-09-28T13:46:15.798Z",
+      "completedAt": "2026-09-28T13:45:59.547Z",
+      "recordsProcessed": 3,
+      "detail": "3 new records · 3 total across all passes",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+    },
+    {
+      "id": "evaluate",
+      "name": "Coverage Evaluation",
+      "description": "Evaluate coverage and decide on additional passes",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:45:59.552Z",
+      "completedAt": "2026-09-28T13:46:03.178Z",
+      "detail": "The current research has only met 15% of the target record count and lacks critical data points such as website URLs and founder information for the identified companies. To reach the target of 20 records with complete fields, more targeted searches focusing on company profiles and recent funding announcements are required."
+    },
+    {
+      "id": "validate",
+      "name": "Validate & Deduplicate",
+      "description": "Field validation, deduplication, and review flagging",
+      "status": "pending"
+    },
+    {
+      "id": "score",
+      "name": "Quality Scoring",
+      "description": "Calculate data quality metrics across all dimensions",
+      "status": "pending"
+    },
+    {
+      "id": "finalize",
+      "name": "Finalize Dataset",
+      "description": "Compile final dataset with full provenance chain",
+      "status": "pending"
+    }
+  ],
+  "searchProvider": "Serper",
+  "runNumber": 1,
+  "createdAt": "2026-09-28T13:44:22.045Z",
+  "updatedAt": "2026-09-28T13:49:21.842Z",
+  "researchPlan": {
+    "objective": "Identify 3 active seed-stage AI healthcare startups in the US including their websites and founder information.",
+    "researchType": "company_info",
+    "title": "Seed-Stage US AI Healthcare Startup Discovery",
+    "entities": [
+      "AI Healthcare Startups",
+      "Seed-Stage Companies"
+    ],
+    "outputFields": [
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": true,
+        "description": "The legal or trade name of the startup",
+        "validationHint": "Must not be empty",
+        "extractionHint": "Look for company headers or About Us pages"
+      },
+      {
+        "name": "website_url",
+        "type": "url",
+        "required": true,
+        "description": "The official company website",
+        "validationHint": "Must be a valid URL format",
+        "extractionHint": "Look for .com or .ai domains"
+      },
+      {
+        "name": "founder_names",
+        "type": "string",
+        "required": true,
+        "description": "Names of the startup founders",
+        "validationHint": "Must contain at least one name",
+        "extractionHint": "Look for Team or Leadership pages"
+      },
+      {
+        "name": "funding_stage",
+        "type": "string",
+        "required": true,
+        "description": "Current funding stage verification",
+        "validationHint": "Must confirm seed stage",
+        "extractionHint": "Look for Crunchbase or press release mentions of 'Seed'"
+      }
+    ],
+    "searchQueries": [
+      "site:crunchbase.com 'seed' 'AI' 'healthcare' 'United States'",
+      "top seed-stage AI healthcare startups US 2024",
+      "recently funded AI healthcare startups seed round US",
+      "emerging AI health tech companies seed stage founders"
+    ],
+    "sourceStrategy": "Prioritize startup databases like Crunchbase, PitchBook, and AngelList, supplemented by recent tech news announcements to ensure the company is currently active.",
+    "validationRules": [
+      {
+        "field": "funding_stage",
+        "rule": "Must explicitly mention seed funding or seed round",
+        "severity": "error"
+      },
+      {
+        "field": "website_url",
+        "rule": "Must be reachable and active",
+        "severity": "error"
+      }
+    ],
+    "deduplicationKeys": [
+      "company_name"
+    ],
+    "targetRecordCount": 20,
+    "maxPasses": 2,
+    "stoppingConditions": [
+      "Target record count reached",
+      "No new unique records found"
+    ],
+    "complianceNotes": "Only using publicly accessible sources"
+  },
+  "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+}

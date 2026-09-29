@@ -1,0 +1,12 @@
+[
+  {
+    "id": "demo-source",
+    "taskId": "c32958b7-f778-4043-a376-781062e1df86",
+    "name": "[DEMO DATA — simulated]",
+    "url": "https://datapulse.example/demo",
+    "type": "web_search",
+    "status": "completed",
+    "searchQuery": "AI startups in Bangalore hiring React developers",
+    "notes": "Demo mode: AI-generated records, not from real web research"
+  }
+]

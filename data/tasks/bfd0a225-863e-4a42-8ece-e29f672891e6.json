@@ -1,0 +1,250 @@
+{
+  "id": "bfd0a225-863e-4a42-8ece-e29f672891e6",
+  "prompt": "Find software companies in India that are currently hiring frontend engineers",
+  "title": "Active Frontend Engineering Roles in India",
+  "status": "completed",
+  "progress": 100,
+  "plan": [
+    {
+      "id": "plan",
+      "name": "Research Planning",
+      "description": "AI generates a dynamic research plan tailored to your request",
+      "status": "completed",
+      "startedAt": "2026-09-28T14:13:22.607Z",
+      "completedAt": "2026-09-28T14:13:28.326Z",
+      "detail": "5 fields · 5 queries · target 20 records"
+    },
+    {
+      "id": "search",
+      "name": "Web Search",
+      "description": "Execute search queries to find relevant sources",
+      "status": "completed",
+      "startedAt": "2026-09-28T14:13:28.349Z",
+      "completedAt": "2026-09-28T14:13:38.955Z",
+      "detail": "5 queries → 40 candidate sources"
+    },
+    {
+      "id": "retrieve",
+      "name": "Content Retrieval",
+      "description": "Fetch and sanitize content from candidate sources",
+      "status": "completed",
+      "startedAt": "2026-09-28T14:13:38.964Z",
+      "completedAt": "2026-09-28T14:13:44.509Z",
+      "detail": "15 pages retrieved · 0 blocked"
+    },
+    {
+      "id": "extract",
+      "name": "Evidence-Grounded Extraction",
+      "description": "AI extracts structured data strictly from retrieved source content",
+      "status": "completed",
+      "startedAt": "2026-09-28T14:13:44.516Z",
+      "completedAt": "2026-09-28T14:14:34.265Z",
+      "recordsProcessed": 7,
+      "detail": "7 new records · 7 total across all passes"
+    },
+    {
+      "id": "evaluate",
+      "name": "Coverage Evaluation",
+      "description": "Evaluate coverage and decide on additional passes",
+      "status": "completed",
+      "startedAt": "2026-09-28T14:14:34.298Z",
+      "completedAt": "2026-09-28T14:14:47.774Z",
+      "detail": "Pass 1 complete (7 records found)"
+    },
+    {
+      "id": "validate",
+      "name": "Validate & Deduplicate",
+      "description": "Field validation, deduplication, and review flagging",
+      "status": "completed",
+      "startedAt": "2026-09-28T14:14:47.809Z",
+      "completedAt": "2026-09-28T14:14:48.021Z",
+      "recordsProcessed": 7,
+      "detail": "0 dupes removed · 7 valid · 0 need review"
+    },
+    {
+      "id": "score",
+      "name": "Quality Scoring",
+      "description": "Calculate data quality metrics across all dimensions",
+      "status": "completed",
+      "startedAt": "2026-09-28T14:14:48.052Z",
+      "completedAt": "2026-09-28T14:14:48.111Z",
+      "detail": "100% complete · 43% evidence-backed · 100% confidence"
+    },
+    {
+      "id": "finalize",
+      "name": "Finalize Dataset",
+      "description": "Compile final dataset with full provenance chain",
+      "status": "completed",
+      "startedAt": "2026-09-28T14:14:48.143Z",
+      "completedAt": "2026-09-28T14:14:48.181Z",
+      "detail": "7 records · 7 evidence items · 1 passes"
+    }
+  ],
+  "searchProvider": "Serper",
+  "runNumber": 1,
+  "createdAt": "2026-09-28T14:13:22.585Z",
+  "updatedAt": "2026-09-28T14:14:48.201Z",
+  "researchPlan": {
+    "objective": "Identify and extract active frontend engineering job openings at software companies based in India.",
+    "researchType": "job_listings",
+    "title": "Active Frontend Engineering Roles in India",
+    "entities": [
+      "Frontend Engineer",
+      "Software Companies",
+      "India"
+    ],
+    "outputFields": [
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": true,
+        "description": "The name of the hiring company",
+        "validationHint": "Must not be empty",
+        "extractionHint": "Look for company branding or header text"
+      },
+      {
+        "name": "job_title",
+        "type": "string",
+        "required": true,
+        "description": "The specific title of the frontend role",
+        "validationHint": "Must contain 'Frontend' or 'UI'",
+        "extractionHint": "Look for H1 tags or job listing headers"
+      },
+      {
+        "name": "job_url",
+        "type": "url",
+        "required": true,
+        "description": "Direct link to the job application page",
+        "validationHint": "Must be a valid URL",
+        "extractionHint": "Extract href from apply button or job listing link"
+      },
+      {
+        "name": "location",
+        "type": "string",
+        "required": true,
+        "description": "City or remote status in India",
+        "validationHint": "Must indicate India location or remote",
+        "extractionHint": "Look for location metadata or job description text"
+      },
+      {
+        "name": "posted_date",
+        "type": "date",
+        "required": false,
+        "description": "Date the job was posted",
+        "validationHint": "Must be a valid date format",
+        "extractionHint": "Look for 'posted on' or timestamp metadata"
+      }
+    ],
+    "searchQueries": [
+      "site:greenhouse.io \"frontend engineer\" India",
+      "site:lever.co \"frontend developer\" India",
+      "site:ashbyhq.com \"frontend engineer\" India",
+      "\"frontend engineer\" hiring India software company careers",
+      "site:workable.com \"frontend engineer\" India"
+    ],
+    "sourceStrategy": "Prioritize Applicant Tracking Systems (ATS) and official company career pages to ensure high-intent, active job listings.",
+    "validationRules": [
+      {
+        "field": "job_url",
+        "rule": "Must be a reachable URL",
+        "severity": "error"
+      },
+      {
+        "field": "job_title",
+        "rule": "Must contain frontend-related keywords",
+        "severity": "warning"
+      }
+    ],
+    "deduplicationKeys": [
+      "company_name",
+      "job_title"
+    ],
+    "targetRecordCount": 20,
+    "maxPasses": 2,
+    "stoppingConditions": [
+      "Target record count reached",
+      "No new unique records found"
+    ],
+    "complianceNotes": "Only using publicly accessible sources"
+  },
+  "completedAt": "2026-09-28T14:14:48.198Z",
+  "summary": {
+    "totalRaw": 7,
+    "totalProcessed": 7,
+    "duplicatesRemoved": 0,
+    "validationErrors": 0,
+    "validationWarnings": 0,
+    "avgConfidence": 100,
+    "sourcesSucceeded": 15,
+    "sourcesFailed": 0,
+    "sourcesBlocked": 0,
+    "topSources": [
+      {
+        "name": "Lingaro",
+        "count": 2
+      },
+      {
+        "name": "Job Application for 09.Frontend Engineer at PayPay India",
+        "count": 1
+      },
+      {
+        "name": "Job Application for Senior Frontend Engineer at GitLab",
+        "count": 1
+      },
+      {
+        "name": "Job Application for Staff Frontend Engineer at GitLab",
+        "count": 1
+      },
+      {
+        "name": "Job Application for Frontend Engineer  at KRAFTON INDIA",
+        "count": 1
+      }
+    ],
+    "searchQueriesRun": 5,
+    "pagesRetrieved": 15,
+    "evidenceItems": 7,
+    "passesCompleted": 1,
+    "isDemo": false
+  },
+  "quality": {
+    "completeness": 100,
+    "validity": 100,
+    "uniqueness": 100,
+    "evidenceCoverage": 43,
+    "avgConfidence": 100,
+    "freshness": "2026-09-28T14:13:42.939Z",
+    "fieldQuality": {
+      "company_name": {
+        "fillRate": 100,
+        "validRate": 100,
+        "evidenceRate": 14,
+        "avgConfidence": 100
+      },
+      "job_title": {
+        "fillRate": 100,
+        "validRate": 100,
+        "evidenceRate": 86,
+        "avgConfidence": 100
+      },
+      "job_url": {
+        "fillRate": 100,
+        "validRate": 100,
+        "evidenceRate": 0,
+        "avgConfidence": 100
+      },
+      "location": {
+        "fillRate": 100,
+        "validRate": 100,
+        "evidenceRate": 71,
+        "avgConfidence": 100
+      },
+      "posted_date": {
+        "fillRate": 0,
+        "validRate": 100,
+        "evidenceRate": 0,
+        "avgConfidence": 100
+      }
+    },
+    "recordsNeedingReview": 0
+  }
+}

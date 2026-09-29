@@ -1,0 +1,213 @@
+{
+  "id": "c6d8c347-e977-4337-a6c0-3580b458ce48",
+  "prompt": "Find top 3 robotics companies in Tokyo with website and specialties",
+  "title": "Top 3 Tokyo Robotics Companies Profile",
+  "status": "completed",
+  "progress": 100,
+  "plan": [
+    {
+      "id": "plan",
+      "name": "Research Planning",
+      "description": "AI generates a dynamic research plan tailored to your request",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:36:19.061Z",
+      "completedAt": "2026-09-28T13:36:31.096Z",
+      "detail": "4 fields · 4 queries · target 3 records"
+    },
+    {
+      "id": "search",
+      "name": "Web Search",
+      "description": "Execute search queries to find relevant sources",
+      "status": "skipped",
+      "completedAt": "2026-09-28T13:36:31.107Z",
+      "detail": "Skipped in Demo mode — no search API configured"
+    },
+    {
+      "id": "retrieve",
+      "name": "Content Retrieval",
+      "description": "Fetch and sanitize content from candidate sources",
+      "status": "skipped",
+      "completedAt": "2026-09-28T13:36:31.110Z",
+      "detail": "Skipped in Demo mode — no search API configured"
+    },
+    {
+      "id": "extract",
+      "name": "Evidence-Grounded Extraction",
+      "description": "AI extracts structured data strictly from retrieved source content",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:36:31.114Z",
+      "completedAt": "2026-09-28T13:36:41.833Z",
+      "recordsProcessed": 3,
+      "detail": "3 demo records generated"
+    },
+    {
+      "id": "evaluate",
+      "name": "Coverage Evaluation",
+      "description": "Evaluate coverage and decide on additional passes",
+      "status": "skipped",
+      "completedAt": "2026-09-28T13:36:41.835Z",
+      "detail": "Skipped in Demo mode"
+    },
+    {
+      "id": "validate",
+      "name": "Validate & Deduplicate",
+      "description": "Field validation, deduplication, and review flagging",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:36:41.839Z",
+      "completedAt": "2026-09-28T13:36:41.846Z",
+      "detail": "3 unique demo records"
+    },
+    {
+      "id": "score",
+      "name": "Quality Scoring",
+      "description": "Calculate data quality metrics across all dimensions",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:36:41.856Z",
+      "completedAt": "2026-09-28T13:36:41.863Z",
+      "detail": "100% complete (demo data)"
+    },
+    {
+      "id": "finalize",
+      "name": "Finalize Dataset",
+      "description": "Compile final dataset with full provenance chain",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:36:41.869Z",
+      "completedAt": "2026-09-28T13:36:41.874Z",
+      "detail": "3 demo records · Add a search API key for real research"
+    }
+  ],
+  "searchProvider": "Demo (no search API configured)",
+  "runNumber": 2,
+  "createdAt": "2026-09-28T13:36:19.049Z",
+  "updatedAt": "2026-09-28T13:36:41.878Z",
+  "researchPlan": {
+    "objective": "Identify and profile the top 3 robotics companies headquartered in Tokyo, Japan, including their official websites and core technical specialties.",
+    "researchType": "company_info",
+    "title": "Top 3 Tokyo Robotics Companies Profile",
+    "entities": [
+      "Tokyo",
+      "Robotics Companies"
+    ],
+    "outputFields": [
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": true,
+        "description": "The official name of the robotics company",
+        "validationHint": "Must be a recognized corporate entity",
+        "extractionHint": "Look for headers or 'About Us' sections"
+      },
+      {
+        "name": "website_url",
+        "type": "url",
+        "required": true,
+        "description": "The official corporate website URL",
+        "validationHint": "Must be a valid, reachable URL",
+        "extractionHint": "Look for links ending in .jp or .com"
+      },
+      {
+        "name": "core_specialties",
+        "type": "string",
+        "required": true,
+        "description": "Primary robotics focus areas (e.g., industrial, humanoid, service)",
+        "validationHint": "Must describe technical robotics capabilities",
+        "extractionHint": "Look for 'Products', 'Solutions', or 'Technology' pages"
+      },
+      {
+        "name": "headquarters_location",
+        "type": "string",
+        "required": true,
+        "description": "Specific district or ward in Tokyo",
+        "validationHint": "Must be within Tokyo prefecture",
+        "extractionHint": "Look for 'Corporate Profile' or 'Contact' pages"
+      }
+    ],
+    "searchQueries": [
+      "top robotics companies headquartered in Tokyo",
+      "leading industrial robotics manufacturers Tokyo Japan",
+      "innovative robotics startups Tokyo list",
+      "best robotics engineering firms Tokyo"
+    ],
+    "sourceStrategy": "Prioritize official corporate websites, reputable Japanese business directories (e.g., JETRO), and industry-specific tech news outlets to ensure accuracy and relevance.",
+    "validationRules": [
+      {
+        "field": "website_url",
+        "rule": "Must be a valid URL format",
+        "severity": "error"
+      },
+      {
+        "field": "company_name",
+        "rule": "Must be located in Tokyo",
+        "severity": "error"
+      }
+    ],
+    "deduplicationKeys": [
+      "company_name"
+    ],
+    "targetRecordCount": 3,
+    "maxPasses": 2,
+    "stoppingConditions": [
+      "Target record count reached",
+      "No new unique records found"
+    ],
+    "complianceNotes": "Only using publicly accessible sources"
+  },
+  "completedAt": "2026-09-28T13:36:41.878Z",
+  "summary": {
+    "totalRaw": 3,
+    "totalProcessed": 3,
+    "duplicatesRemoved": 0,
+    "validationErrors": 0,
+    "validationWarnings": 0,
+    "avgConfidence": 65,
+    "sourcesSucceeded": 1,
+    "sourcesFailed": 0,
+    "sourcesBlocked": 0,
+    "topSources": [
+      {
+        "name": "[DEMO DATA]",
+        "count": 3
+      }
+    ],
+    "searchQueriesRun": 0,
+    "pagesRetrieved": 0,
+    "evidenceItems": 3,
+    "passesCompleted": 1,
+    "isDemo": true
+  },
+  "quality": {
+    "completeness": 100,
+    "validity": 100,
+    "uniqueness": 100,
+    "evidenceCoverage": 0,
+    "avgConfidence": 65,
+    "freshness": "2026-09-28T13:36:41.820Z",
+    "fieldQuality": {
+      "company_name": {
+        "fillRate": 100,
+        "validRate": 100,
+        "evidenceRate": 0,
+        "avgConfidence": 65
+      },
+      "website_url": {
+        "fillRate": 100,
+        "validRate": 100,
+        "evidenceRate": 0,
+        "avgConfidence": 65
+      },
+      "core_specialties": {
+        "fillRate": 100,
+        "validRate": 100,
+        "evidenceRate": 0,
+        "avgConfidence": 65
+      },
+      "headquarters_location": {
+        "fillRate": 100,
+        "validRate": 100,
+        "evidenceRate": 0,
+        "avgConfidence": 65
+      }
+    },
+    "recordsNeedingReview": 0
+  }
+}

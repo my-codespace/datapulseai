@@ -1,0 +1,155 @@
+[
+  {
+    "id": "7ab76137-9d23-42c3-940c-427f7598a737",
+    "taskId": "418afb84-0a7b-4e59-a021-448e28487e9c",
+    "name": "[DEMO] Example Result 1",
+    "url": "https://demo.datapulse.example/result-1",
+    "type": "web_search",
+    "status": "failed",
+    "searchQuery": "site:wellfound.com 'React' 'India' startup hiring",
+    "notes": "This is a demo result. Add a real search API key to get actual web results.",
+    "fetchStatus": "failed"
+  },
+  {
+    "id": "61bacdbb-b0c7-4c88-9cac-fd19d2c50b46",
+    "taskId": "418afb84-0a7b-4e59-a021-448e28487e9c",
+    "name": "[DEMO] Example Result 2",
+    "url": "https://demo.datapulse.example/result-2",
+    "type": "web_search",
+    "status": "failed",
+    "searchQuery": "site:wellfound.com 'React' 'India' startup hiring",
+    "notes": "Demo mode is active. Set SERPER_API_KEY, BRAVE_API_KEY, or GOOGLE_CSE_KEY in .env.local.",
+    "fetchStatus": "failed"
+  },
+  {
+    "id": "791c407d-35a8-480b-8066-db24d89f57ed",
+    "taskId": "418afb84-0a7b-4e59-a021-448e28487e9c",
+    "name": "[DEMO] Example Result 3",
+    "url": "https://demo.datapulse.example/result-3",
+    "type": "web_search",
+    "status": "failed",
+    "searchQuery": "site:wellfound.com 'React' 'India' startup hiring",
+    "notes": "Real results require a search API. DataPulse supports Serper, Brave Search, and Google CSE.",
+    "fetchStatus": "failed"
+  },
+  {
+    "id": "21c1ca41-1c32-43c4-951a-84b25e65540f",
+    "taskId": "418afb84-0a7b-4e59-a021-448e28487e9c",
+    "name": "[DEMO] Example Result 1",
+    "url": "https://demo.datapulse.example/result-1",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "site:linkedin.com/jobs 'React developer' 'startup' India",
+    "notes": "This is a demo result. Add a real search API key to get actual web results."
+  },
+  {
+    "id": "6eb55c46-5acf-4cc6-9326-f9eefc22c53a",
+    "taskId": "418afb84-0a7b-4e59-a021-448e28487e9c",
+    "name": "[DEMO] Example Result 2",
+    "url": "https://demo.datapulse.example/result-2",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "site:linkedin.com/jobs 'React developer' 'startup' India",
+    "notes": "Demo mode is active. Set SERPER_API_KEY, BRAVE_API_KEY, or GOOGLE_CSE_KEY in .env.local."
+  },
+  {
+    "id": "66785f08-5c77-4aa9-a53f-8981b31e907e",
+    "taskId": "418afb84-0a7b-4e59-a021-448e28487e9c",
+    "name": "[DEMO] Example Result 3",
+    "url": "https://demo.datapulse.example/result-3",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "site:linkedin.com/jobs 'React developer' 'startup' India",
+    "notes": "Real results require a search API. DataPulse supports Serper, Brave Search, and Google CSE."
+  },
+  {
+    "id": "dc6e9f7d-7773-4081-a595-4e7d528fd844",
+    "taskId": "418afb84-0a7b-4e59-a021-448e28487e9c",
+    "name": "[DEMO] Example Result 1",
+    "url": "https://demo.datapulse.example/result-1",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "site:naukri.com 'React' 'startup' India job openings",
+    "notes": "This is a demo result. Add a real search API key to get actual web results."
+  },
+  {
+    "id": "ddd53589-f981-46f4-b475-0327f94242f7",
+    "taskId": "418afb84-0a7b-4e59-a021-448e28487e9c",
+    "name": "[DEMO] Example Result 2",
+    "url": "https://demo.datapulse.example/result-2",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "site:naukri.com 'React' 'startup' India job openings",
+    "notes": "Demo mode is active. Set SERPER_API_KEY, BRAVE_API_KEY, or GOOGLE_CSE_KEY in .env.local."
+  },
+  {
+    "id": "16bf0a4a-8346-47cd-a386-9b0f99363066",
+    "taskId": "418afb84-0a7b-4e59-a021-448e28487e9c",
+    "name": "[DEMO] Example Result 3",
+    "url": "https://demo.datapulse.example/result-3",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "site:naukri.com 'React' 'startup' India job openings",
+    "notes": "Real results require a search API. DataPulse supports Serper, Brave Search, and Google CSE."
+  },
+  {
+    "id": "5f01b8e1-c903-4abe-bdfb-a10871b7c1e5",
+    "taskId": "418afb84-0a7b-4e59-a021-448e28487e9c",
+    "name": "[DEMO] Example Result 1",
+    "url": "https://demo.datapulse.example/result-1",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "site:instahyre.com 'React' 'startup' India",
+    "notes": "This is a demo result. Add a real search API key to get actual web results."
+  },
+  {
+    "id": "ef8bb0ae-8e79-404f-a962-1be52e1ef27e",
+    "taskId": "418afb84-0a7b-4e59-a021-448e28487e9c",
+    "name": "[DEMO] Example Result 2",
+    "url": "https://demo.datapulse.example/result-2",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "site:instahyre.com 'React' 'startup' India",
+    "notes": "Demo mode is active. Set SERPER_API_KEY, BRAVE_API_KEY, or GOOGLE_CSE_KEY in .env.local."
+  },
+  {
+    "id": "17f41d57-dd20-44b3-bfdb-4387a38ae8b5",
+    "taskId": "418afb84-0a7b-4e59-a021-448e28487e9c",
+    "name": "[DEMO] Example Result 3",
+    "url": "https://demo.datapulse.example/result-3",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "site:instahyre.com 'React' 'startup' India",
+    "notes": "Real results require a search API. DataPulse supports Serper, Brave Search, and Google CSE."
+  },
+  {
+    "id": "dcda3096-2fde-4ecc-adf0-28cdaab32d9f",
+    "taskId": "418afb84-0a7b-4e59-a021-448e28487e9c",
+    "name": "[DEMO] Example Result 1",
+    "url": "https://demo.datapulse.example/result-1",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "top Indian tech startups hiring React developers 2024",
+    "notes": "This is a demo result. Add a real search API key to get actual web results."
+  },
+  {
+    "id": "90b111ff-b96f-43e3-a2e7-34765cb71558",
+    "taskId": "418afb84-0a7b-4e59-a021-448e28487e9c",
+    "name": "[DEMO] Example Result 2",
+    "url": "https://demo.datapulse.example/result-2",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "top Indian tech startups hiring React developers 2024",
+    "notes": "Demo mode is active. Set SERPER_API_KEY, BRAVE_API_KEY, or GOOGLE_CSE_KEY in .env.local."
+  },
+  {
+    "id": "0cb7cf26-9565-41a6-b1e0-fae6ddf4749d",
+    "taskId": "418afb84-0a7b-4e59-a021-448e28487e9c",
+    "name": "[DEMO] Example Result 3",
+    "url": "https://demo.datapulse.example/result-3",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "top Indian tech startups hiring React developers 2024",
+    "notes": "Real results require a search API. DataPulse supports Serper, Brave Search, and Google CSE."
+  }
+]

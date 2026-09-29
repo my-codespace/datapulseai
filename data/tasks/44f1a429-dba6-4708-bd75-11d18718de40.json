@@ -1,0 +1,234 @@
+{
+  "id": "44f1a429-dba6-4708-bd75-11d18718de40",
+  "prompt": "Find 3 innovative AI developer tool startups in 2024 with company name, website, and funding",
+  "title": "Top 2024 AI Developer Tool Startups",
+  "status": "completed",
+  "progress": 100,
+  "plan": [
+    {
+      "id": "plan",
+      "name": "Research Planning",
+      "description": "AI generates a dynamic research plan tailored to your request",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:50:01.410Z",
+      "completedAt": "2026-09-28T13:50:09.664Z",
+      "detail": "4 fields · 4 queries · target 20 records"
+    },
+    {
+      "id": "search",
+      "name": "Web Search",
+      "description": "Execute search queries to find relevant sources",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:50:46.767Z",
+      "completedAt": "2026-09-28T13:50:52.875Z",
+      "detail": "7 queries → 22 candidate sources"
+    },
+    {
+      "id": "retrieve",
+      "name": "Content Retrieval",
+      "description": "Fetch and sanitize content from candidate sources",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:50:53.034Z",
+      "completedAt": "2026-09-28T13:50:58.018Z",
+      "detail": "21 pages retrieved · 1 blocked"
+    },
+    {
+      "id": "extract",
+      "name": "Evidence-Grounded Extraction",
+      "description": "AI extracts structured data strictly from retrieved source content",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:50:58.032Z",
+      "completedAt": "2026-09-28T13:51:03.399Z",
+      "recordsProcessed": 6,
+      "detail": "3 new records · 6 total across all passes"
+    },
+    {
+      "id": "evaluate",
+      "name": "Coverage Evaluation",
+      "description": "Evaluate coverage and decide on additional passes",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:51:03.412Z",
+      "completedAt": "2026-09-28T13:51:03.442Z",
+      "detail": "Maximum passes (2) reached"
+    },
+    {
+      "id": "validate",
+      "name": "Validate & Deduplicate",
+      "description": "Field validation, deduplication, and review flagging",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:51:03.457Z",
+      "completedAt": "2026-09-28T13:51:03.526Z",
+      "recordsProcessed": 6,
+      "detail": "0 dupes removed · 6 valid · 6 need review"
+    },
+    {
+      "id": "score",
+      "name": "Quality Scoring",
+      "description": "Calculate data quality metrics across all dimensions",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:51:03.536Z",
+      "completedAt": "2026-09-28T13:51:03.560Z",
+      "detail": "67% complete · 75% evidence-backed · 83% confidence"
+    },
+    {
+      "id": "finalize",
+      "name": "Finalize Dataset",
+      "description": "Compile final dataset with full provenance chain",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:51:03.569Z",
+      "completedAt": "2026-09-28T13:51:03.588Z",
+      "detail": "6 records · 6 evidence items · 2 passes"
+    }
+  ],
+  "searchProvider": "Serper",
+  "runNumber": 1,
+  "createdAt": "2026-09-28T13:50:01.309Z",
+  "updatedAt": "2026-09-28T13:51:03.597Z",
+  "researchPlan": {
+    "objective": "Identify three innovative AI-powered developer tool startups founded or gaining significant traction in 2024 with verified funding data.",
+    "researchType": "company_info",
+    "title": "Top 2024 AI Developer Tool Startups",
+    "entities": [
+      "AI Developer Tools",
+      "Startups",
+      "Venture Capital"
+    ],
+    "outputFields": [
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": true,
+        "description": "The legal or brand name of the startup",
+        "validationHint": "Must not be empty",
+        "extractionHint": "Look for headers or 'About' sections"
+      },
+      {
+        "name": "website_url",
+        "type": "url",
+        "required": true,
+        "description": "The official company website",
+        "validationHint": "Must be a valid URL format",
+        "extractionHint": "Look for links ending in .com or .ai"
+      },
+      {
+        "name": "funding_amount",
+        "type": "string",
+        "required": true,
+        "description": "Total funding raised or latest round amount",
+        "validationHint": "Must contain currency symbol or numeric value",
+        "extractionHint": "Look for 'Series A', 'Seed', or '$' signs"
+      },
+      {
+        "name": "innovation_focus",
+        "type": "string",
+        "required": true,
+        "description": "Brief description of the AI tool's core functionality",
+        "validationHint": "Must be at least 10 characters",
+        "extractionHint": "Look for product descriptions or 'What we do' sections"
+      }
+    ],
+    "searchQueries": [
+      "best new AI developer tool startups 2024",
+      "top funded AI coding assistant startups 2024",
+      "emerging AI software development platforms 2024 funding",
+      "innovative AI devtools seed series A 2024"
+    ],
+    "sourceStrategy": "Prioritize Crunchbase, TechCrunch, and specialized developer tool newsletters to ensure data accuracy regarding funding and product innovation.",
+    "validationRules": [
+      {
+        "field": "website_url",
+        "rule": "Must be a reachable URL",
+        "severity": "error"
+      },
+      {
+        "field": "funding_amount",
+        "rule": "Must be verifiable via a secondary source",
+        "severity": "warning"
+      }
+    ],
+    "deduplicationKeys": [
+      "company_name"
+    ],
+    "targetRecordCount": 20,
+    "maxPasses": 2,
+    "stoppingConditions": [
+      "Target record count reached",
+      "No new unique records found"
+    ],
+    "complianceNotes": "Only using publicly accessible sources"
+  },
+  "completedAt": "2026-09-28T13:51:03.596Z",
+  "summary": {
+    "totalRaw": 6,
+    "totalProcessed": 6,
+    "duplicatesRemoved": 0,
+    "validationErrors": 0,
+    "validationWarnings": 8,
+    "avgConfidence": 83,
+    "sourcesSucceeded": 20,
+    "sourcesFailed": 6,
+    "sourcesBlocked": 3,
+    "topSources": [
+      {
+        "name": "Top 100 Developer Tools Startups to Watch in 2026",
+        "count": 2
+      },
+      {
+        "name": "AI Assistant Startups funded by Y Combinator (YC) 2026 | Y Combinator",
+        "count": 1
+      },
+      {
+        "name": "The Week’s 10 Biggest Funding Rounds: AI Tools And Assistants Lead Sparser Lineup Of Megadeals",
+        "count": 1
+      },
+      {
+        "name": "North American Startup Funding Soared 46% In 2025, Driven By AI Boom",
+        "count": 1
+      },
+      {
+        "name": "85 Hottest AI Startups to Watch in 2026 [By Valuation, Funding, & Growth]",
+        "count": 1
+      }
+    ],
+    "searchQueriesRun": 7,
+    "pagesRetrieved": 21,
+    "evidenceItems": 6,
+    "passesCompleted": 2,
+    "isDemo": false
+  },
+  "quality": {
+    "completeness": 67,
+    "validity": 100,
+    "uniqueness": 100,
+    "evidenceCoverage": 75,
+    "avgConfidence": 83,
+    "freshness": "2026-09-28T13:50:55.147Z",
+    "fieldQuality": {
+      "company_name": {
+        "fillRate": 100,
+        "validRate": 100,
+        "evidenceRate": 83,
+        "avgConfidence": 100
+      },
+      "website_url": {
+        "fillRate": 0,
+        "validRate": 100,
+        "evidenceRate": 0,
+        "avgConfidence": 50
+      },
+      "funding_amount": {
+        "fillRate": 67,
+        "validRate": 150,
+        "evidenceRate": 50,
+        "avgConfidence": 83
+      },
+      "innovation_focus": {
+        "fillRate": 100,
+        "validRate": 100,
+        "evidenceRate": 83,
+        "avgConfidence": 100
+      }
+    },
+    "recordsNeedingReview": 6
+  }
+}

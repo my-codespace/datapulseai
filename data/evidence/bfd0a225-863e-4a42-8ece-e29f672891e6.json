@@ -1,0 +1,79 @@
+[
+  {
+    "id": "8a773ce7-3cbf-4eaf-8a0b-24ab40739aec",
+    "sourceId": "b5e6f394-b5b2-4da7-b9c2-fbed2f79abec",
+    "sourceName": "Job Application for 09.Frontend Engineer at PayPay India",
+    "sourceUrl": "http://job-boards.greenhouse.io/pay2dc/jobs/4671610006",
+    "retrievedAt": "2026-09-28T14:13:38.986Z",
+    "snippet": "PayPay India is looking for a Frontend Engineer to work on our payment system to deliver the best payment experience for our customers.",
+    "relevance": 100,
+    "searchQuery": "site:greenhouse.io \"frontend engineer\" India",
+    "taskId": "bfd0a225-863e-4a42-8ece-e29f672891e6"
+  },
+  {
+    "id": "d23cc5d5-8520-443a-986a-a41e59c32421",
+    "sourceId": "1d858618-bc4a-48e4-a465-1051f9a0ee3d",
+    "sourceName": "Job Application for Senior Frontend Engineer at GitLab",
+    "sourceUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8826920002",
+    "retrievedAt": "2026-09-28T14:13:40.173Z",
+    "snippet": "NewSenior Frontend EngineerBangalore, IndiaApply",
+    "relevance": 100,
+    "searchQuery": "site:greenhouse.io \"frontend engineer\" India",
+    "taskId": "bfd0a225-863e-4a42-8ece-e29f672891e6"
+  },
+  {
+    "id": "c1cad48d-a4d2-4759-94e0-02f5031b9e2e",
+    "sourceId": "aac9419d-0b63-4f04-9c30-aead91536971",
+    "sourceName": "Job Application for Staff Frontend Engineer at GitLab",
+    "sourceUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8826965002",
+    "retrievedAt": "2026-09-28T14:13:40.175Z",
+    "snippet": "NewStaff Frontend EngineerBangalore, IndiaApply",
+    "relevance": 100,
+    "searchQuery": "site:greenhouse.io \"frontend engineer\" India",
+    "taskId": "bfd0a225-863e-4a42-8ece-e29f672891e6"
+  },
+  {
+    "id": "9c61e281-274d-4d89-8844-38937a9068a1",
+    "sourceId": "95edeabb-219b-42fa-b1ae-11ca74c04768",
+    "sourceName": "Job Application for Frontend Engineer  at KRAFTON INDIA",
+    "sourceUrl": "https://job-boards.greenhouse.io/kraftonindia/jobs/8514438002",
+    "retrievedAt": "2026-09-28T14:13:40.175Z",
+    "snippet": "Frontend Engineer BengaluruApply",
+    "relevance": 100,
+    "searchQuery": "site:greenhouse.io \"frontend engineer\" India",
+    "taskId": "bfd0a225-863e-4a42-8ece-e29f672891e6"
+  },
+  {
+    "id": "0371b64b-93d4-4df5-9380-5b44d33a55b0",
+    "sourceId": "4689eba8-54ef-4588-8812-a1f24cd276d4",
+    "sourceName": "Z1 Tech - Frontend Developer",
+    "sourceUrl": "https://jobs.lever.co/z1tech/38960f0e-34cd-47b9-95e8-e6eb05342f5e",
+    "retrievedAt": "2026-09-28T14:13:40.638Z",
+    "snippet": "Frontend DeveloperGurgaonVDO.AI – Technology /Full Time /On-siteapply for this job",
+    "relevance": 100,
+    "searchQuery": "site:lever.co \"frontend developer\" India",
+    "taskId": "bfd0a225-863e-4a42-8ece-e29f672891e6"
+  },
+  {
+    "id": "9e5c6077-9e43-4070-a728-6c1affbbc451",
+    "sourceId": "19cd76ab-d9ef-4bf1-9145-f77b72f39f20",
+    "sourceName": "Lingaro",
+    "sourceUrl": "https://jobs.lever.co/lingarogroup",
+    "retrievedAt": "2026-09-28T14:13:42.939Z",
+    "snippet": "Front End Developer. Remote — Full-timeIndia · Apply",
+    "relevance": 100,
+    "searchQuery": "site:lever.co \"frontend developer\" India",
+    "taskId": "bfd0a225-863e-4a42-8ece-e29f672891e6"
+  },
+  {
+    "id": "bacfc1bf-47e6-405c-bf0f-d693193a1894",
+    "sourceId": "19cd76ab-d9ef-4bf1-9145-f77b72f39f20",
+    "sourceName": "Lingaro",
+    "sourceUrl": "https://jobs.lever.co/lingarogroup",
+    "retrievedAt": "2026-09-28T14:13:42.939Z",
+    "snippet": "Frontend Developer - Fr",
+    "relevance": 100,
+    "searchQuery": "site:lever.co \"frontend developer\" India",
+    "taskId": "bfd0a225-863e-4a42-8ece-e29f672891e6"
+  }
+]

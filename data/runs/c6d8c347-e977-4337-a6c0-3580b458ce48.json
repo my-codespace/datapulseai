@@ -1,0 +1,57 @@
+[
+  {
+    "id": "2ed76e9f-68ae-4088-8c22-ffd1f9b2724b",
+    "taskId": "c6d8c347-e977-4337-a6c0-3580b458ce48",
+    "runNumber": 2,
+    "createdAt": "2026-09-28T13:36:19.053Z",
+    "recordCount": 3,
+    "comparison": {
+      "newRecords": 0,
+      "removedRecords": 0,
+      "changedRecords": 3,
+      "unchangedRecords": 0,
+      "changes": [
+        {
+          "recordId": "fa772db8-5c59-425d-b4f3-bef34f45dd88",
+          "changeType": "changed",
+          "changedFields": [
+            {
+              "field": "headquarters_location",
+              "oldValue": "Oshino, Yamanashi (Tokyo Sales Office: Hino, Tokyo)",
+              "newValue": "Hino, Tokyo"
+            }
+          ]
+        },
+        {
+          "recordId": "5e96a2df-35d2-4930-8867-62a9567cddc4",
+          "changeType": "changed",
+          "changedFields": [
+            {
+              "field": "core_specialties",
+              "oldValue": "Wearable cyborg technology, medical exoskeletons, and assistive robotics",
+              "newValue": "Wearable cyborg technology, medical robotics, and assistive exoskeletons"
+            },
+            {
+              "field": "headquarters_location",
+              "oldValue": "Tsukuba (Tokyo Office: Chiyoda-ku, Tokyo)",
+              "newValue": "Shinjuku, Tokyo"
+            }
+          ]
+        },
+        {
+          "recordId": "149f1f5a-b921-4817-bb0a-0f2fa8f974c0",
+          "changeType": "changed",
+          "changedFields": [
+            {
+              "field": "headquarters_location",
+              "oldValue": "Chuo-ku, Tokyo",
+              "newValue": "Chuo City, Tokyo"
+            }
+          ]
+        }
+      ],
+      "comparedAt": "2026-09-28T13:36:41.885Z"
+    },
+    "completedAt": "2026-09-28T13:36:41.885Z"
+  }
+]

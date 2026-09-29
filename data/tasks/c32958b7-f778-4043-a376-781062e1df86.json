@@ -1,0 +1,215 @@
+{
+  "id": "c32958b7-f778-4043-a376-781062e1df86",
+  "prompt": "Find top 3 AI startups in Bangalore hiring React developers",
+  "title": "Top Bangalore AI Startups Hiring React",
+  "status": "completed",
+  "progress": 100,
+  "plan": [
+    {
+      "id": "plan",
+      "name": "Research Planning",
+      "description": "AI generates a dynamic research plan tailored to your request",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:22:22.784Z",
+      "completedAt": "2026-09-28T13:22:34.180Z",
+      "detail": "4 fields · 4 queries · target 20 records"
+    },
+    {
+      "id": "search",
+      "name": "Web Search",
+      "description": "Execute search queries to find relevant sources",
+      "status": "skipped",
+      "completedAt": "2026-09-28T13:22:34.203Z",
+      "detail": "Skipped in Demo mode — no search API configured"
+    },
+    {
+      "id": "retrieve",
+      "name": "Content Retrieval",
+      "description": "Fetch and sanitize content from candidate sources",
+      "status": "skipped",
+      "completedAt": "2026-09-28T13:22:34.210Z",
+      "detail": "Skipped in Demo mode — no search API configured"
+    },
+    {
+      "id": "extract",
+      "name": "Evidence-Grounded Extraction",
+      "description": "AI extracts structured data strictly from retrieved source content",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:22:34.225Z",
+      "completedAt": "2026-09-28T13:24:11.183Z",
+      "recordsProcessed": 8,
+      "detail": "8 demo records generated"
+    },
+    {
+      "id": "evaluate",
+      "name": "Coverage Evaluation",
+      "description": "Evaluate coverage and decide on additional passes",
+      "status": "skipped",
+      "completedAt": "2026-09-28T13:24:11.185Z",
+      "detail": "Skipped in Demo mode"
+    },
+    {
+      "id": "validate",
+      "name": "Validate & Deduplicate",
+      "description": "Field validation, deduplication, and review flagging",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:24:11.189Z",
+      "completedAt": "2026-09-28T13:24:11.200Z",
+      "detail": "8 unique demo records"
+    },
+    {
+      "id": "score",
+      "name": "Quality Scoring",
+      "description": "Calculate data quality metrics across all dimensions",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:24:11.203Z",
+      "completedAt": "2026-09-28T13:24:11.206Z",
+      "detail": "100% complete (demo data)"
+    },
+    {
+      "id": "finalize",
+      "name": "Finalize Dataset",
+      "description": "Compile final dataset with full provenance chain",
+      "status": "completed",
+      "startedAt": "2026-09-28T13:24:11.207Z",
+      "completedAt": "2026-09-28T13:24:11.209Z",
+      "detail": "8 demo records · Add a search API key for real research"
+    }
+  ],
+  "searchProvider": "Demo (no search API configured)",
+  "runNumber": 1,
+  "createdAt": "2026-09-28T13:22:22.777Z",
+  "updatedAt": "2026-09-28T13:24:11.211Z",
+  "researchPlan": {
+    "objective": "Identify and validate the top 3 AI-focused startups in Bangalore currently hiring React developers.",
+    "researchType": "job_listings",
+    "title": "Top Bangalore AI Startups Hiring React",
+    "entities": [
+      "Bangalore",
+      "AI Startups",
+      "React Developers"
+    ],
+    "outputFields": [
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": true,
+        "description": "Name of the AI startup",
+        "validationHint": "Must be a recognized entity",
+        "extractionHint": "Look for company headers on career pages"
+      },
+      {
+        "name": "job_title",
+        "type": "string",
+        "required": true,
+        "description": "Specific React developer role title",
+        "validationHint": "Must contain React or Frontend",
+        "extractionHint": "Look for job titles containing React, Frontend, or UI"
+      },
+      {
+        "name": "job_url",
+        "type": "url",
+        "required": true,
+        "description": "Direct link to the job posting",
+        "validationHint": "Must be a valid URL",
+        "extractionHint": "Look for href attributes on apply buttons"
+      },
+      {
+        "name": "funding_stage",
+        "type": "string",
+        "required": true,
+        "description": "Current funding stage of the startup",
+        "validationHint": "Seed, Series A, B, etc.",
+        "extractionHint": "Look for Crunchbase or LinkedIn company profile data"
+      }
+    ],
+    "searchQueries": [
+      "AI startups in Bangalore hiring React developers",
+      "React developer jobs Bangalore AI startup",
+      "top funded AI companies Bangalore careers",
+      "hiring React frontend developer Bangalore AI"
+    ],
+    "sourceStrategy": "Prioritize LinkedIn Jobs, Wellfound (AngelList), and company career pages to ensure current and active job listings.",
+    "validationRules": [
+      {
+        "field": "job_url",
+        "rule": "Must be a live, accessible URL",
+        "severity": "error"
+      },
+      {
+        "field": "company_name",
+        "rule": "Must be based in Bangalore",
+        "severity": "warning"
+      }
+    ],
+    "deduplicationKeys": [
+      "company_name",
+      "job_title"
+    ],
+    "targetRecordCount": 20,
+    "maxPasses": 2,
+    "stoppingConditions": [
+      "Target record count reached",
+      "No new unique records found"
+    ],
+    "complianceNotes": "Only using publicly accessible sources"
+  },
+  "completedAt": "2026-09-28T13:24:11.211Z",
+  "summary": {
+    "totalRaw": 8,
+    "totalProcessed": 8,
+    "duplicatesRemoved": 0,
+    "validationErrors": 0,
+    "validationWarnings": 0,
+    "avgConfidence": 65,
+    "sourcesSucceeded": 1,
+    "sourcesFailed": 0,
+    "sourcesBlocked": 0,
+    "topSources": [
+      {
+        "name": "[DEMO DATA]",
+        "count": 8
+      }
+    ],
+    "searchQueriesRun": 0,
+    "pagesRetrieved": 0,
+    "evidenceItems": 8,
+    "passesCompleted": 1,
+    "isDemo": true
+  },
+  "quality": {
+    "completeness": 100,
+    "validity": 100,
+    "uniqueness": 100,
+    "evidenceCoverage": 0,
+    "avgConfidence": 65,
+    "freshness": "2026-09-28T13:24:11.165Z",
+    "fieldQuality": {
+      "company_name": {
+        "fillRate": 100,
+        "validRate": 100,
+        "evidenceRate": 0,
+        "avgConfidence": 65
+      },
+      "job_title": {
+        "fillRate": 100,
+        "validRate": 100,
+        "evidenceRate": 0,
+        "avgConfidence": 65
+      },
+      "job_url": {
+        "fillRate": 100,
+        "validRate": 100,
+        "evidenceRate": 0,
+        "avgConfidence": 65
+      },
+      "funding_stage": {
+        "fillRate": 100,
+        "validRate": 100,
+        "evidenceRate": 0,
+        "avgConfidence": 65
+      }
+    },
+    "recordsNeedingReview": 0
+  }
+}

@@ -1,0 +1,587 @@
+[
+  {
+    "id": "d3efd23c-8d9f-4181-9fc8-4f3ffe2daa9e",
+    "sourceId": "83dfff4c-702f-4e3a-b838-2aabfb943d52",
+    "sourceName": "Job Application for Senior Fullstack Engineer at Ethos Life",
+    "sourceUrl": "http://job-boards.greenhouse.io/ethoslife/jobs/8161491002",
+    "fieldValues": {
+      "company_name": {
+        "value": "Ethos Life",
+        "confidence": 100,
+        "evidenceIds": [
+          "44c7d0d3-bc54-463b-99b3-70b5d9bde2c0"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "job_title": {
+        "value": "Senior Fullstack Engineer",
+        "confidence": 100,
+        "evidenceIds": [
+          "44c7d0d3-bc54-463b-99b3-70b5d9bde2c0"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "location": {
+        "value": "Bangalore, India",
+        "confidence": 100,
+        "evidenceIds": [
+          "44c7d0d3-bc54-463b-99b3-70b5d9bde2c0"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "application_link": {
+        "value": "http://job-boards.greenhouse.io/ethoslife/jobs/8161491002",
+        "confidence": 100,
+        "evidenceIds": [
+          "44c7d0d3-bc54-463b-99b3-70b5d9bde2c0"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "source": {
+        "value": "greenhouse.io",
+        "confidence": 100,
+        "evidenceIds": [
+          "44c7d0d3-bc54-463b-99b3-70b5d9bde2c0"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Ethos Life",
+      "job_title": "Senior Fullstack Engineer",
+      "location": "Bangalore, India",
+      "application_link": "http://job-boards.greenhouse.io/ethoslife/jobs/8161491002",
+      "source": "greenhouse.io"
+    },
+    "evidence": [
+      {
+        "id": "44c7d0d3-bc54-463b-99b3-70b5d9bde2c0",
+        "sourceId": "83dfff4c-702f-4e3a-b838-2aabfb943d52",
+        "sourceName": "Job Application for Senior Fullstack Engineer at Ethos Life",
+        "sourceUrl": "http://job-boards.greenhouse.io/ethoslife/jobs/8161491002",
+        "retrievedAt": "2026-09-28T14:20:23.706Z",
+        "snippet": "Senior Fullstack Engineer. Bangalore, India. Apply.",
+        "relevance": 100,
+        "searchQuery": "site:greenhouse.io \"fullstack engineer\" India"
+      }
+    ],
+    "confidence": 100,
+    "validationIssues": [],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T14:20:43.198Z",
+    "needsReview": false,
+    "reviewFlags": [],
+    "reviewStatus": "pending",
+    "taskId": "14541914-fe16-480e-81f2-2399aa2d9dd6"
+  },
+  {
+    "id": "03f611e4-5c40-4f54-8606-4346e779a7a7",
+    "sourceId": "fd02314c-0834-4a9f-a17c-60e68211bc3c",
+    "sourceName": "Brillio - Fullstack Engineer - React  Java - R01527438",
+    "sourceUrl": "https://jobs.lever.co/brillio-2/7fb2ac4a-a088-4c5d-b67d-77834786b729",
+    "fieldValues": {
+      "company_name": {
+        "value": "Brillio",
+        "confidence": 100,
+        "evidenceIds": [
+          "5ff63f64-7aaa-4a5d-bf37-53ee5e699c5e"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "job_title": {
+        "value": "Fullstack Engineer - React Java - R01527438",
+        "confidence": 100,
+        "evidenceIds": [
+          "5ff63f64-7aaa-4a5d-bf37-53ee5e699c5e"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "location": {
+        "value": "Chennai, Tamil Nadu, India",
+        "confidence": 100,
+        "evidenceIds": [
+          "5ff63f64-7aaa-4a5d-bf37-53ee5e699c5e"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "application_link": {
+        "value": "https://jobs.lever.co/brillio-2/7fb2ac4a-a088-4c5d-b67d-77834786b729/apply",
+        "confidence": 100,
+        "evidenceIds": [
+          "5ff63f64-7aaa-4a5d-bf37-53ee5e699c5e"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "source": {
+        "value": "lever.co",
+        "confidence": 100,
+        "evidenceIds": [
+          "5ff63f64-7aaa-4a5d-bf37-53ee5e699c5e"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Brillio",
+      "job_title": "Fullstack Engineer - React Java - R01527438",
+      "location": "Chennai, Tamil Nadu, India",
+      "application_link": "https://jobs.lever.co/brillio-2/7fb2ac4a-a088-4c5d-b67d-77834786b729/apply",
+      "source": "lever.co"
+    },
+    "evidence": [
+      {
+        "id": "5ff63f64-7aaa-4a5d-bf37-53ee5e699c5e",
+        "sourceId": "fd02314c-0834-4a9f-a17c-60e68211bc3c",
+        "sourceName": "Brillio - Fullstack Engineer - React  Java - R01527438",
+        "sourceUrl": "https://jobs.lever.co/brillio-2/7fb2ac4a-a088-4c5d-b67d-77834786b729",
+        "retrievedAt": "2026-09-28T14:20:28.050Z",
+        "snippet": "Fullstack Engineer - React Java - R01527438. Chennai, Tamil Nadu, India.",
+        "relevance": 100,
+        "searchQuery": "site:lever.co \"fullstack engineer\" India"
+      }
+    ],
+    "confidence": 100,
+    "validationIssues": [],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T14:20:43.198Z",
+    "needsReview": false,
+    "reviewFlags": [],
+    "reviewStatus": "pending",
+    "taskId": "14541914-fe16-480e-81f2-2399aa2d9dd6"
+  },
+  {
+    "id": "f4c98b9c-cbc0-4381-bf8f-3d32e08764d5",
+    "sourceId": "db3df356-ca56-4a16-a5a4-542cf1e135f9",
+    "sourceName": "Staff FullStack Engineer - iManage - Career Page",
+    "sourceUrl": "https://imanagecom.applytojob.com/apply/JrSLvodMBj/Staff-FullStack-Engineer",
+    "fieldValues": {
+      "company_name": {
+        "value": "iManage",
+        "confidence": 100,
+        "evidenceIds": [
+          "08e2890f-d2dc-498c-a814-1dee9b463470"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "job_title": {
+        "value": "Staff FullStack Engineer",
+        "confidence": 100,
+        "evidenceIds": [
+          "08e2890f-d2dc-498c-a814-1dee9b463470"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "location": {
+        "value": "Bengaluru, Karnataka, India",
+        "confidence": 100,
+        "evidenceIds": [
+          "08e2890f-d2dc-498c-a814-1dee9b463470"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "application_link": {
+        "value": "https://imanagecom.applytojob.com/apply/JrSLvodMBj/Staff-FullStack-Engineer",
+        "confidence": 100,
+        "evidenceIds": [
+          "08e2890f-d2dc-498c-a814-1dee9b463470"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "source": {
+        "value": "applytojob.com",
+        "confidence": 100,
+        "evidenceIds": [
+          "08e2890f-d2dc-498c-a814-1dee9b463470"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "iManage",
+      "job_title": "Staff FullStack Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "application_link": "https://imanagecom.applytojob.com/apply/JrSLvodMBj/Staff-FullStack-Engineer",
+      "source": "applytojob.com"
+    },
+    "evidence": [
+      {
+        "id": "08e2890f-d2dc-498c-a814-1dee9b463470",
+        "sourceId": "db3df356-ca56-4a16-a5a4-542cf1e135f9",
+        "sourceName": "Staff FullStack Engineer - iManage - Career Page",
+        "sourceUrl": "https://imanagecom.applytojob.com/apply/JrSLvodMBj/Staff-FullStack-Engineer",
+        "retrievedAt": "2026-09-28T14:21:00.031Z",
+        "snippet": "Staff FullStack Engineer Bengaluru, Karnataka, India Full Time Engineering Experienced",
+        "relevance": 100,
+        "searchQuery": "site:applytojob.com \"fullstack engineer\" India"
+      }
+    ],
+    "confidence": 100,
+    "validationIssues": [],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T14:21:11.028Z",
+    "needsReview": false,
+    "reviewFlags": [],
+    "reviewStatus": "pending",
+    "taskId": "14541914-fe16-480e-81f2-2399aa2d9dd6"
+  },
+  {
+    "id": "7c0ec642-7e05-488d-ba78-50df17c306ae",
+    "sourceId": "49130c2d-2bae-4496-8fba-ea7d1df686fd",
+    "sourceName": "Share Job - JazzHR",
+    "sourceUrl": "https://digitalex.applytojob.com/app/share/W64NiYYsfL",
+    "fieldValues": {
+      "company_name": {
+        "value": "DigitalEx",
+        "confidence": 100,
+        "evidenceIds": [
+          "a44d1868-11f0-4e1a-b1b3-1547c3e95d98"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "job_title": {
+        "value": "Principal Fullstack Engineer",
+        "confidence": 100,
+        "evidenceIds": [
+          "a44d1868-11f0-4e1a-b1b3-1547c3e95d98"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "location": {
+        "value": "India",
+        "confidence": 100,
+        "evidenceIds": [
+          "a44d1868-11f0-4e1a-b1b3-1547c3e95d98"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "application_link": {
+        "value": "https://digitalex.applytojob.com/app/share/W64NiYYsfL",
+        "confidence": 100,
+        "evidenceIds": [
+          "a44d1868-11f0-4e1a-b1b3-1547c3e95d98"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "source": {
+        "value": "applytojob.com",
+        "confidence": 100,
+        "evidenceIds": [
+          "a44d1868-11f0-4e1a-b1b3-1547c3e95d98"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "DigitalEx",
+      "job_title": "Principal Fullstack Engineer",
+      "location": "India",
+      "application_link": "https://digitalex.applytojob.com/app/share/W64NiYYsfL",
+      "source": "applytojob.com"
+    },
+    "evidence": [
+      {
+        "id": "a44d1868-11f0-4e1a-b1b3-1547c3e95d98",
+        "sourceId": "49130c2d-2bae-4496-8fba-ea7d1df686fd",
+        "sourceName": "Share Job - JazzHR",
+        "sourceUrl": "https://digitalex.applytojob.com/app/share/W64NiYYsfL",
+        "retrievedAt": "2026-09-28T14:21:01.482Z",
+        "snippet": "Principal Fullstack Engineer. India; Full Time; Experienced.",
+        "relevance": 100,
+        "searchQuery": "site:applytojob.com \"fullstack engineer\" India"
+      }
+    ],
+    "confidence": 100,
+    "validationIssues": [],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T14:21:11.028Z",
+    "needsReview": false,
+    "reviewFlags": [],
+    "reviewStatus": "pending",
+    "taskId": "14541914-fe16-480e-81f2-2399aa2d9dd6"
+  },
+  {
+    "id": "03754e90-bf83-4009-9160-3f484e1c683e",
+    "sourceId": "4a85a8b6-11a9-4fc0-9115-929477f910eb",
+    "sourceName": "Source (www.instahyre.com)",
+    "sourceUrl": "https://www.instahyre.com/full-stack-development-jobs/",
+    "fieldValues": {
+      "company_name": {
+        "value": "Akrys.ai",
+        "confidence": 100,
+        "evidenceIds": [
+          "05160413-6acc-4e7a-babd-5ba0a3141340"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "job_title": {
+        "value": "Senior Fullstack Engineer",
+        "confidence": 100,
+        "evidenceIds": [
+          "05160413-6acc-4e7a-babd-5ba0a3141340"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "location": {
+        "value": "Bangalore",
+        "confidence": 100,
+        "evidenceIds": [
+          "05160413-6acc-4e7a-babd-5ba0a3141340"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "application_link": {
+        "value": null,
+        "confidence": 0,
+        "evidenceIds": [
+          "05160413-6acc-4e7a-babd-5ba0a3141340"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "warning",
+        "validationMessage": "Required field missing"
+      },
+      "source": {
+        "value": "instahyre.com",
+        "confidence": 100,
+        "evidenceIds": [
+          "05160413-6acc-4e7a-babd-5ba0a3141340"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Akrys.ai",
+      "job_title": "Senior Fullstack Engineer",
+      "location": "Bangalore",
+      "application_link": null,
+      "source": "instahyre.com"
+    },
+    "evidence": [
+      {
+        "id": "05160413-6acc-4e7a-babd-5ba0a3141340",
+        "sourceId": "4a85a8b6-11a9-4fc0-9115-929477f910eb",
+        "sourceName": "Source (www.instahyre.com)",
+        "sourceUrl": "https://www.instahyre.com/full-stack-development-jobs/",
+        "retrievedAt": "2026-09-28T14:21:01.500Z",
+        "snippet": "Senior Fullstack Engineer. Akrys.ai. Bangalore",
+        "relevance": 95,
+        "searchQuery": "\"fullstack engineer\" India careers -site:greenhouse.io -site:lever.co -site:ashbyhq.com"
+      }
+    ],
+    "confidence": 80,
+    "validationIssues": [
+      {
+        "field": "application_link",
+        "message": "Required field \"application_link\" not found in source",
+        "severity": "warning"
+      }
+    ],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T14:21:11.028Z",
+    "needsReview": true,
+    "reviewFlags": [
+      "missing_required"
+    ],
+    "reviewStatus": "pending",
+    "taskId": "14541914-fe16-480e-81f2-2399aa2d9dd6"
+  },
+  {
+    "id": "f6809928-dd6c-4399-8624-f01a4b61260a",
+    "sourceId": "1d72f91d-db0f-4643-91fa-f0e359bf5b85",
+    "sourceName": "Source (globalcareers-atlassian.icims.com)",
+    "sourceUrl": "https://globalcareers-atlassian.icims.com/jobs/25696/principal-fullstack-engineer/job",
+    "fieldValues": {
+      "company_name": {
+        "value": "Atlassian",
+        "confidence": 100,
+        "evidenceIds": [
+          "3171ad2f-1921-4da6-b826-7c27962d6190"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "job_title": {
+        "value": "Principal Fullstack Engineer",
+        "confidence": 100,
+        "evidenceIds": [
+          "3171ad2f-1921-4da6-b826-7c27962d6190"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "location": {
+        "value": "Remote - India",
+        "confidence": 100,
+        "evidenceIds": [
+          "3171ad2f-1921-4da6-b826-7c27962d6190"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "application_link": {
+        "value": "https://globalcareers-atlassian.icims.com/jobs/25696/principal-fullstack-engineer/job",
+        "confidence": 100,
+        "evidenceIds": [
+          "3171ad2f-1921-4da6-b826-7c27962d6190"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "source": {
+        "value": "icims.com",
+        "confidence": 100,
+        "evidenceIds": [
+          "3171ad2f-1921-4da6-b826-7c27962d6190"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Atlassian",
+      "job_title": "Principal Fullstack Engineer",
+      "location": "Remote - India",
+      "application_link": "https://globalcareers-atlassian.icims.com/jobs/25696/principal-fullstack-engineer/job",
+      "source": "icims.com"
+    },
+    "evidence": [
+      {
+        "id": "3171ad2f-1921-4da6-b826-7c27962d6190",
+        "sourceId": "1d72f91d-db0f-4643-91fa-f0e359bf5b85",
+        "sourceName": "Source (globalcareers-atlassian.icims.com)",
+        "sourceUrl": "https://globalcareers-atlassian.icims.com/jobs/25696/principal-fullstack-engineer/job",
+        "retrievedAt": "2026-09-28T14:21:02.688Z",
+        "snippet": "Remote - India is now hiring a Principal Fullstack Engineer in . Review all of the job details and apply today!",
+        "relevance": 100,
+        "searchQuery": "\"fullstack engineer\" India careers -site:greenhouse.io -site:lever.co -site:ashbyhq.com"
+      }
+    ],
+    "confidence": 100,
+    "validationIssues": [],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T14:21:11.028Z",
+    "needsReview": false,
+    "reviewFlags": [],
+    "reviewStatus": "pending",
+    "taskId": "14541914-fe16-480e-81f2-2399aa2d9dd6"
+  },
+  {
+    "id": "5286a99f-eec3-4b1b-b9a5-9f405487f3a2",
+    "sourceId": "9dc5ad33-81b5-4c48-a07e-305421271d2c",
+    "sourceName": "Source (startup.jobs)",
+    "sourceUrl": "https://startup.jobs/roles/full-stack-engineer",
+    "fieldValues": {
+      "company_name": {
+        "value": "Inco",
+        "confidence": 100,
+        "evidenceIds": [
+          "274dda61-81fe-4a00-a29c-579c5df3a06d"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "job_title": {
+        "value": "Full-stack Engineer",
+        "confidence": 100,
+        "evidenceIds": [
+          "274dda61-81fe-4a00-a29c-579c5df3a06d"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      },
+      "location": {
+        "value": "Bengaluru, India",
+        "confidence": 100,
+        "evidenceIds": [
+          "274dda61-81fe-4a00-a29c-579c5df3a06d"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "valid"
+      },
+      "application_link": {
+        "value": null,
+        "confidence": 0,
+        "evidenceIds": [
+          "274dda61-81fe-4a00-a29c-579c5df3a06d"
+        ],
+        "extractionMethod": "source_derived",
+        "validationStatus": "warning",
+        "validationMessage": "Required field missing"
+      },
+      "source": {
+        "value": "startup.jobs",
+        "confidence": 100,
+        "evidenceIds": [
+          "274dda61-81fe-4a00-a29c-579c5df3a06d"
+        ],
+        "extractionMethod": "ai_inferred",
+        "validationStatus": "valid"
+      }
+    },
+    "fields": {
+      "company_name": "Inco",
+      "job_title": "Full-stack Engineer",
+      "location": "Bengaluru, India",
+      "application_link": null,
+      "source": "startup.jobs"
+    },
+    "evidence": [
+      {
+        "id": "274dda61-81fe-4a00-a29c-579c5df3a06d",
+        "sourceId": "9dc5ad33-81b5-4c48-a07e-305421271d2c",
+        "sourceName": "Source (startup.jobs)",
+        "sourceUrl": "https://startup.jobs/roles/full-stack-engineer",
+        "retrievedAt": "2026-09-28T14:21:02.702Z",
+        "snippet": "Inco ·. Bengaluru, India · Remote.",
+        "relevance": 95,
+        "searchQuery": "\"fullstack engineer\" India careers -site:greenhouse.io -site:lever.co -site:ashbyhq.com"
+      }
+    ],
+    "confidence": 80,
+    "validationIssues": [
+      {
+        "field": "application_link",
+        "message": "Required field \"application_link\" not found in source",
+        "severity": "warning"
+      }
+    ],
+    "isDuplicate": false,
+    "isValid": true,
+    "processedAt": "2026-09-28T14:21:11.028Z",
+    "needsReview": true,
+    "reviewFlags": [
+      "missing_required"
+    ],
+    "reviewStatus": "pending",
+    "taskId": "14541914-fe16-480e-81f2-2399aa2d9dd6"
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "id": "06f9f99a-c822-4fd3-aad6-a61c4061be80",
+    "taskId": "98cfda8b-b589-476a-a250-66b1fbd8c866",
+    "name": "[DEMO] Example Result 1",
+    "url": "https://demo.datapulse.example/result-1",
+    "type": "web_search",
+    "status": "failed",
+    "searchQuery": "site:lever.co OR site:greenhouse.io OR site:ashbyhq.com \"React\" developer startup India",
+    "notes": "This is a demo result. Add a real search API key to get actual web results.",
+    "fetchStatus": "failed"
+  },
+  {
+    "id": "d22db616-2037-4eb7-9adb-4a802683cfaa",
+    "taskId": "98cfda8b-b589-476a-a250-66b1fbd8c866",
+    "name": "[DEMO] Example Result 2",
+    "url": "https://demo.datapulse.example/result-2",
+    "type": "web_search",
+    "status": "failed",
+    "searchQuery": "site:lever.co OR site:greenhouse.io OR site:ashbyhq.com \"React\" developer startup India",
+    "notes": "Demo mode is active. Set SERPER_API_KEY, BRAVE_API_KEY, or GOOGLE_CSE_KEY in .env.local.",
+    "fetchStatus": "failed"
+  },
+  {
+    "id": "bc915642-dd48-47ef-b5a2-61ddc17ae122",
+    "taskId": "98cfda8b-b589-476a-a250-66b1fbd8c866",
+    "name": "[DEMO] Example Result 3",
+    "url": "https://demo.datapulse.example/result-3",
+    "type": "web_search",
+    "status": "failed",
+    "searchQuery": "site:lever.co OR site:greenhouse.io OR site:ashbyhq.com \"React\" developer startup India",
+    "notes": "Real results require a search API. DataPulse supports Serper, Brave Search, and Google CSE.",
+    "fetchStatus": "failed"
+  },
+  {
+    "id": "c950d528-0120-4053-bf71-52d34fc867ab",
+    "taskId": "98cfda8b-b589-476a-a250-66b1fbd8c866",
+    "name": "[DEMO] Example Result 1",
+    "url": "https://demo.datapulse.example/result-1",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "site:wellfound.com/jobs \"React\" frontend developer India startup",
+    "notes": "This is a demo result. Add a real search API key to get actual web results."
+  },
+  {
+    "id": "aeadc347-7869-4006-b76e-18c70888dfb3",
+    "taskId": "98cfda8b-b589-476a-a250-66b1fbd8c866",
+    "name": "[DEMO] Example Result 2",
+    "url": "https://demo.datapulse.example/result-2",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "site:wellfound.com/jobs \"React\" frontend developer India startup",
+    "notes": "Demo mode is active. Set SERPER_API_KEY, BRAVE_API_KEY, or GOOGLE_CSE_KEY in .env.local."
+  },
+  {
+    "id": "b9ce8779-e002-4e7a-a43f-1c3dcdf1ff14",
+    "taskId": "98cfda8b-b589-476a-a250-66b1fbd8c866",
+    "name": "[DEMO] Example Result 3",
+    "url": "https://demo.datapulse.example/result-3",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "site:wellfound.com/jobs \"React\" frontend developer India startup",
+    "notes": "Real results require a search API. DataPulse supports Serper, Brave Search, and Google CSE."
+  },
+  {
+    "id": "16bea313-c3ae-4fbd-837a-60ebc4a82d19",
+    "taskId": "98cfda8b-b589-476a-a250-66b1fbd8c866",
+    "name": "[DEMO] Example Result 1",
+    "url": "https://demo.datapulse.example/result-1",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "\"React Developer\" OR \"Frontend Engineer\" startup hiring Bengaluru OR Gurgaon OR Remote India jobs",
+    "notes": "This is a demo result. Add a real search API key to get actual web results."
+  },
+  {
+    "id": "883d5653-3d12-497b-8ab9-d9297f3f8a7f",
+    "taskId": "98cfda8b-b589-476a-a250-66b1fbd8c866",
+    "name": "[DEMO] Example Result 2",
+    "url": "https://demo.datapulse.example/result-2",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "\"React Developer\" OR \"Frontend Engineer\" startup hiring Bengaluru OR Gurgaon OR Remote India jobs",
+    "notes": "Demo mode is active. Set SERPER_API_KEY, BRAVE_API_KEY, or GOOGLE_CSE_KEY in .env.local."
+  },
+  {
+    "id": "4a11bb60-7f15-4d04-a503-4a5cd8ba3b1f",
+    "taskId": "98cfda8b-b589-476a-a250-66b1fbd8c866",
+    "name": "[DEMO] Example Result 3",
+    "url": "https://demo.datapulse.example/result-3",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "\"React Developer\" OR \"Frontend Engineer\" startup hiring Bengaluru OR Gurgaon OR Remote India jobs",
+    "notes": "Real results require a search API. DataPulse supports Serper, Brave Search, and Google CSE."
+  },
+  {
+    "id": "2a508bc5-3afa-4490-ac9e-8b8d920a2a60",
+    "taskId": "98cfda8b-b589-476a-a250-66b1fbd8c866",
+    "name": "[DEMO] Example Result 1",
+    "url": "https://demo.datapulse.example/result-1",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "\"Software Engineer\" \"React\" hiring startup India careers apply",
+    "notes": "This is a demo result. Add a real search API key to get actual web results."
+  },
+  {
+    "id": "62f03598-1929-4829-8434-9d678606800c",
+    "taskId": "98cfda8b-b589-476a-a250-66b1fbd8c866",
+    "name": "[DEMO] Example Result 2",
+    "url": "https://demo.datapulse.example/result-2",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "\"Software Engineer\" \"React\" hiring startup India careers apply",
+    "notes": "Demo mode is active. Set SERPER_API_KEY, BRAVE_API_KEY, or GOOGLE_CSE_KEY in .env.local."
+  },
+  {
+    "id": "42c6c9af-43a9-4e8a-80b6-037f9a21050b",
+    "taskId": "98cfda8b-b589-476a-a250-66b1fbd8c866",
+    "name": "[DEMO] Example Result 3",
+    "url": "https://demo.datapulse.example/result-3",
+    "type": "web_search",
+    "status": "pending",
+    "searchQuery": "\"Software Engineer\" \"React\" hiring startup India careers apply",
+    "notes": "Real results require a search API. DataPulse supports Serper, Brave Search, and Google CSE."
+  }
+]
