@@ -104,12 +104,6 @@ function WorkflowStepRow({ step, index }: { step: WorkflowStep; index: number })
 function LogConsole({ logs }: { logs: LogEntry[] }) {
   const bottomRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    if (bottomRef.current) {
-      bottomRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
-  }, [logs.length]);
-
   function formatTime(iso: string) {
     const d = new Date(iso);
     return d.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' });
