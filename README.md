@@ -1,9 +1,9 @@
-﻿# 🔬 DataPulse AI
+# 🔬 DataPulse AI
 
 > **Turn any business question into a structured, source-backed dataset — powered by Gemini AI and real web research.**
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org/)
-[![Gemini AI](https://img.shields.io/badge/Gemini-2.0%20Flash-blue)](https://ai.google.dev/)
+[![Gemini AI](https://img.shields.io/badge/Gemini-3.1%20Flash%20Lite-blue)](https://ai.google.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -214,14 +214,14 @@ Include event name, date, location, audience size, tiers, and application link.
 ## 🔬 Technical Deep-Dives
 
 ### AI Model Fallback Chain
-DataPulse uses a cascading fallback for maximum reliability under load:
+DataPulse uses a cascading fallback for maximum reliability under load. (Note: We explicitly use the 3.1/3.5/Flash-Lite models instead of the latest 3.8 models to bypass the strict 20-request/day limits on the 2026 free tier):
 
 ```
-gemini-2.0-flash      → Primary (fast, large context, highly capable)
-gemini-2.0-flash-lite → Secondary (faster, lower rate limit cost)
-gemini-1.5-flash      → Tertiary (proven stable, highly available)
-gemini-1.5-flash-8b   → Quaternary (smallest, maximum availability)
-gemini-1.5-pro        → Last resort (most powerful, lower quotas)
+gemini-3.1-flash-lite    → Primary (extremely high availability, no strict rate limits)
+gemini-flash-lite-latest → Secondary (always resolving to fastest lite model)
+gemini-flash-latest      → Tertiary (standard tier fallback)
+gemini-3.5-flash-lite    → Quaternary (proven stable)
+gemini-3.6-flash         → Last resort
   ↓ all fail → wait 4s → retry primary
 ```
 
