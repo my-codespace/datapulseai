@@ -6,11 +6,11 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 // Ref: https://ai.google.dev/gemini-api/docs/models
 
 const MODEL_FALLBACKS = [
-  'gemini-2.0-flash',         // Primary: fast, capable, large context
-  'gemini-2.0-flash-lite',    // Secondary: faster, lower quota cost
-  'gemini-1.5-flash',         // Tertiary: highly available, stable
-  'gemini-1.5-flash-8b',      // Quaternary: smallest/fastest, great fallback
-  'gemini-1.5-pro',           // Last resort: most capable but lower rate limits
+  'gemini-3.8-flash',         // Primary: fast, capable, large context (latest 2026 model)
+  'gemini-3.8-flash-lite',    // Secondary: faster, lower quota cost
+  'gemini-3.5-flash',         // Tertiary: highly available, stable
+  'gemini-3.5-flash-8b',      // Quaternary: smallest/fastest, great fallback
+  'gemini-3.5-pro',           // Last resort: most capable but lower rate limits
 ];
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
@@ -90,8 +90,8 @@ export async function callAI(prompt: string, jsonMode = true): Promise<string> {
   await sleep(4000);
 
   try {
-    const result = await callModel('gemini-2.0-flash', prompt, jsonMode);
-    resolvedModel = 'gemini-2.0-flash';
+    const result = await callModel('gemini-3.8-flash', prompt, jsonMode);
+    resolvedModel = 'gemini-3.8-flash';
     return result;
   } catch (retryErr) {
     lastError = retryErr instanceof Error ? retryErr : new Error(String(retryErr));
